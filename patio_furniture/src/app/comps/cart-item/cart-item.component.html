@@ -1,0 +1,39 @@
+<div [class]="line ? 'mt-2 store-item bottom-line pb-3' : 'store-item mt-2'">
+    <div class="row">
+      <div class="col-lg-3">
+        <img class="image-store" [src]="bigPic" [alt]="item.nameP" />
+      </div>
+      <div class="col-lg-9">
+        <div class="mt-3 mt-lg-0 d-flex align-items-center justify-content-between">
+          <h4>{{ item.nameP }}</h4>
+          <div>
+            <div
+              class="btn-quantity-container d-flex align-items-center justify-content-center myPlus"
+            >
+              <i class="fa-solid fa-minus-circle" (click)="subtract.emit()"></i>
+              <span class="p-quantity">{{ item.tempAmount || 0 }}</span>
+              <i class="fa-solid fa-plus-circle" (click)="add.emit()"></i>
+            </div>
+          </div>
+        </div>
+        <div class="list-store d-flex align-items-center justify-content-between">
+          <p></p>
+          @if(item.descrip){
+            <p class="p-note">({{ item.descrip }})</p>
+          }
+          
+        </div>
+        <div class="list-store d-flex align-items-center justify-content-between">
+          <p>Color: black</p>
+        </div>
+        <div class="list-store d-flex align-items-center justify-content-between">
+        </div>
+        <div class="list-store d-flex align-items-center justify-content-between">
+          <div class="d-flex gap-2">
+            <app-button (myEvent)="remove.emit()"  text iconName="fa-solid fa-trash-alt"></app-button>
+          </div>
+          <h5>{{ item.price  }}</h5>
+        </div>
+      </div>
+    </div>
+  </div>

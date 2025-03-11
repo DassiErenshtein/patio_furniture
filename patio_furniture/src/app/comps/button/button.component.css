@@ -1,0 +1,9 @@
+button{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+button:active{
+    border: none;
+    
+}

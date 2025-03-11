@@ -1,0 +1,95 @@
+<div class="card mb-4">
+
+    <div class="card-header d-flex justify-content-between align-items-center">
+
+
+        <div class="d-flex">
+            <div class="mr-4">
+                <div><span class="orderNumber orders__header-label">מספר הזמנה</span></div>
+                <div class="orderNumber">{{order.id}}</div>
+            </div>
+
+            <div class="mr-4">
+                <div><span class="orderDate orders__header-label">תאריך</span></div>
+                <div class="orderDate">{{order.date}}</div>
+            </div>
+
+            <div class="mr-4">
+                <div><span class="orderQuantity orders__header-label">פריטים</span></div>
+                <div class="orderQuantity">{{order.products?.length}}</div>
+            </div>
+
+            <div class="mr-4">
+                <div><span class="orderPrice orders__header-label">מחיר</span></div>
+                <div class="orderTotalPrice">{{order.sumPrice}}₪</div>
+            </div>
+        </div>
+
+        <div>
+            <a class="btn btn-outline-primary" id="toggle471127" href="javascript:void(0)"
+                onclick="brownsbfs.accountpersonal.toggleOrderHistory('471127');" data-hidetext="Hide Order"
+                data-showtext="Show Order">פרטי הקניה</a>
+        </div>
+    </div>
+
+    <div id="order471127p" class="history a">
+        <div class="orderDetails">
+
+        </div>
+    </div>
+
+    <div id="order471127" class="prevOrderDetails a" style="display: block;">
+        <!-- LINE ITEM -->
+         @if(order.products?.length==0){
+            <p>אין הסטורית הזמנות</p>
+         }
+         @if(order==undefined){
+            <p>הרשם קודם...:)</p>
+         }
+        @for(product of order.products;track product.id;let i=$index){
+        <div class="card-body border-bottom">
+            <div class="orderStatus mb-2">{{product.nameP}}</div>
+            <div class="item">
+                <div class="d-md-flex justify-content-between">
+                    <div class="d-flex flex-grow">
+                        <!-- ITEM IMAGE -->
+                        <div class="itemImage">
+                            <a>
+                                <img id="img-9781904233657" [src]="getUrlPic(product)" alt="Twilight" />
+                            </a>
+                        </div>
+
+                        <!-- ITEM INFO -->
+                        <div class="itemInfo flex-grow">
+                            <h6>
+                                <a></a>
+                            </h6>
+                            <div>
+                                <span class="price">{{product.price}}</span>
+                            </div>
+                            <div>
+                                <span class="quantity">{{product.tempAmount}}</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TOOLS -->
+                    <div class="status">
+                        <!--Official fix for [STOR-1648] -->
+                        <form method="post" action="" class="orderLineDisabledCancel"
+                            onsubmit="alert('To cancel, please contact Customer Services');event.preventDefault();return false;"
+                            novalidate="novalidate">
+                        </form>
+
+
+                        <div class="dispatchDetails"></div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        }
+
+    </div>
+</div>

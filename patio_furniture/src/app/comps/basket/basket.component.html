@@ -1,0 +1,57 @@
+<div class="pt-4 pb-4">
+  <h2 class="text-center">סל הקניות</h2>
+  <div class="row mt-5 gap-3 gap-md-0 gap-lg-0">
+    <div class="col-lg-8 col-md-7">
+      <div class="card">
+        <h4>סל ({{ this.bs.cart.products?.length }} פריטים)</h4>
+
+        <div>
+          @for(item of this.bs.cart.products;track item.id;let i = $index){
+          <app-cart-item [item]="item" [line]="i + 1 < this.bs.cart.products!.length" (add)="addToCart(item)"
+            (subtract)="reduceFromCart(item)" (remove)="removeFromCart(item.id||0)"></app-cart-item>
+          }
+
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-5">
+      <div class="row gap-3">
+        <div class="col">
+          <div class="card">
+            <h4>סך הכל</h4>
+            <div class="store-item mt-2">
+              <div class="row">
+                <div class="col">
+                  <div class="list-store d-flex align-items-center justify-content-between">
+                    <p>מחיר זמני</p>
+                    <p>{{ bs.cart.sumPrice }}</p>
+                  </div>
+                  <div class="list-store d-flex align-items-center justify-content-between">
+                    <p>Shipping</p>
+                    <p>Gratis</p>
+                  </div>
+                  <div class="bottom-line"></div>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="col-6">
+                  <p class="p-total-label">מחיר סופי לקניה זו</p>
+                </div>
+                <div class="col-6">
+                  <p class="p-total">{{ bs.cart.sumPrice }}</p>
+
+                </div>
+              </div>
+              <div class="row mt-1">
+                <div class="col">
+                  <button class="btn btn-primary w-100" (click)="toPay()"
+                    [disabled]="!bs.cart||!bs.cart.products||bs.cart.products.length==0">{{'לקופה'}}</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

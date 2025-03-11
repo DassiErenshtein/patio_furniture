@@ -1,0 +1,99 @@
+<main>
+
+  <div class="container">
+    <header>
+
+      <div class="header-main">
+        <div></div>
+        <div class="logo">
+          Gar10
+        </div>
+
+        <div class="account" (click)="letLogin(true)">
+            <i class="fa-solid fa-user-circle accountButton"></i>
+        </div>
+      </div>
+
+      <div class="navigation">
+        <span class="nav-logo">
+          <a routerLink="./basket">
+            <div class="header-cart">
+              <img src="https://cdn-icons-png.flaticon.com/512/263/263142.png">
+              <span [innerHTML]='bs.cart&&bs.cart.count?bs.cart.count:0'></span>
+            </div>
+          </a>
+        </span>
+        <nav>
+          <a routerLink="./home page">דף הבית</a>
+          <a routerLink="./home page/about">אודות</a>
+          <a routerLink="./home page/categories">קטגוריות</a>
+          <!-- <a routerLink="./home page/about">קטגוריות</a> -->
+
+          <a routerLink="./products"> כל המוצרים</a>
+          @if(cs.thisClient.id!=undefined){
+            <a  routerLink="./history">הסטוריה</a>
+          }
+        </nav>
+      </div>
+
+    </header>
+  </div>
+</main>
+
+@if(login==false){
+<router-outlet></router-outlet>
+}
+@else {
+<app-login (close)="letLogin(false)" nameArr="register"></app-login>
+}
+<footer>
+  <div class="footer">
+    <img src="https://i.ibb.co/2yV3VsL/logo.png" alt="Logo" />
+    <div class="column">
+      <ul>
+        <li class="">COMPANY</li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">For the record</a></li>
+      </ul>
+    </div>
+    <div class="column">
+      <ul>
+        <li class="">COMMUNITIES</li>
+        <li><a href="#">For Artists</a></li>
+        <li><a href="#">Developers</a></li>
+        <li><a href="#">Brands</a></li>
+        <li><a href="#">Investors</a></li>
+        <li><a href="#">Vendors</a></li>
+      </ul>
+    </div>
+    <div class="column">
+      <ul>
+        <li class="">USEFUL LINKS</li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Web Player</a></li>
+        <li><a href="#">Free Mobile App</a></li>
+      </ul>
+    </div>
+    <div class="socials">
+      <a class="social-icon" href="#"><span><i class="fab fa-instagram"></i></span></a>
+      <a class="social-icon" href="#"><span><i class="fab fa-twitter"></i></span></a>
+      <a class="social-icon" href="#"><span><i class="fab fa-facebook-f"></i></span></a>
+    </div>
+  </div>
+  <div class="country">
+    Romania<img src="https://i.ibb.co/x7R9qfT/flag.png" alt="country-flag" />
+  </div>
+  <div class="info">
+    <div>
+      <a href="#">Legal</a>
+      <a href="#">Privacy Center</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Cookies</a>
+      <a href="#">About Ads</a>
+    </div>
+    <div class="copyright">
+      © 2020 Spotify AB
+    </div>
+  </div>
+</footer>

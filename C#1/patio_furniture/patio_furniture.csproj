@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bll_Services\Bll_Services.csproj" />
+    <ProjectReference Include="..\Dal_Repository\Dal_Repository.csproj" />
+    <ProjectReference Include="..\Dto_Command\Dto_Command.csproj" />
+    <ProjectReference Include="..\IBll_Services\IBll_Services.csproj" />
+    <ProjectReference Include="..\IDal_Repository\IDal_Repository.csproj" />
+  </ItemGroup>
+
+</Project>

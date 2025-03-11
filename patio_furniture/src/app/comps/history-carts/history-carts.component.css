@@ -1,0 +1,26 @@
+
+label{
+    font-weight: 600;
+    user-select: none;
+  }
+  
+  h3, .h3{
+    font-weight: 700;
+  }
+  
+  .orders{
+    __header-label{
+      text-transform: uppercase;
+      font-size: 11px;
+      letter-spacing: 1px;
+      color: rgba(0,0,0,0.6);
+    }
+  }
+  
+  .itemImage{
+    width: 100px;
+    padding-right: 20px;
+    img {
+      max-width: 100%;
+    }
+  }

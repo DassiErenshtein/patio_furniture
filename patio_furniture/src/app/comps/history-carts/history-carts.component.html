@@ -1,0 +1,9 @@
+<div class="container">
+
+    <div class="row mb-4">
+        <h1 class="col-10">הסטוריית הזמנות</h1>
+    </div>
+    @for(order of orders;track order.id){
+        <app-history-order [order]="order"></app-history-order>
+    }
+</div>

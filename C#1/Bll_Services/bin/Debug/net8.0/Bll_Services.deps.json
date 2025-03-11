@@ -1,0 +1,72 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Bll_Services/1.0.0": {
+        "dependencies": {
+          "IBll_Services": "1.0.0",
+          "IDal_Repository": "1.0.0"
+        },
+        "runtime": {
+          "Bll_Services.dll": {}
+        }
+      },
+      "Dto_Command/1.0.0": {
+        "runtime": {
+          "Dto_Command.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "IBll_Services/1.0.0": {
+        "dependencies": {
+          "Dto_Command": "1.0.0"
+        },
+        "runtime": {
+          "IBll_Services.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "IDal_Repository/1.0.0": {
+        "dependencies": {
+          "Dto_Command": "1.0.0"
+        },
+        "runtime": {
+          "IDal_Repository.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bll_Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dto_Command/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IBll_Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IDal_Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

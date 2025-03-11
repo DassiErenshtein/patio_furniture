@@ -1,0 +1,8 @@
+ <div id="shopCats">
+ @for(cat of categories;track cat.id){
+    <div className="shopCard">
+    <app-card-cat [path]="'/products/'+cat.id" [url]="getImg(cat)" [nameCard]="cat.nameC"></app-card-cat>
+
+</div>
+ }
+</div>

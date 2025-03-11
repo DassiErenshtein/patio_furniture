@@ -1,0 +1,14 @@
+<section id="product1" class="section-p1">
+  <div class="pro-container">
+    <div class="pro">
+      <a [ngClass]="(product&&product.amount &&product.amount>0)?'sold':'sold_out'">אזל מהמלאי</a>
+      <img [src]="urlPic" alt="" [routerLink]="['/detailsProd/'+product?.id]">
+      <div class="des" [routerLink]="['/detailsProd/'+product?.id]">
+        <span [ngClass]="(product&&product.amount &&product!.amount>0)?'g':'r'">{{product?.nameP}}</span>
+        <h5>{{product?.descrip}}</h5>
+        <h4>{{product?.price | currency: 'ILS'}}</h4>
+      </div>
+      <i class="fa-solid fa-shopping-cart mycart" [appBaught]="num" (click)="addToCart()"></i>
+    </div>
+  </div>
+</section>

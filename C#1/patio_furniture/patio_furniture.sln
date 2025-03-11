@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "patio_furniture", "patio_furniture.csproj", "{735A08C0-1211-4923-B5DA-E857234DA949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bll_Services", "..\Bll_Services\Bll_Services.csproj", "{FA60695D-7E55-4E44-A9A6-1D1129F40D1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dal_Repository", "..\Dal_Repository\Dal_Repository.csproj", "{35581AB3-764D-4A1A-91C7-D814DC189EE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dto_Command", "..\Dto_Command\Dto_Command.csproj", "{E72F3D41-37A6-4DE3-A9FD-2EA36B18A90F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IBll_Services", "..\IBll_Services\IBll_Services.csproj", "{9488D8CA-245D-421C-AC76-6D25D33EE23E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDal_Repository", "..\IDal_Repository\IDal_Repository.csproj", "{3358A0FA-3F0A-4E7C-BB71-50D410543CD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{735A08C0-1211-4923-B5DA-E857234DA949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{735A08C0-1211-4923-B5DA-E857234DA949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{735A08C0-1211-4923-B5DA-E857234DA949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{735A08C0-1211-4923-B5DA-E857234DA949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA60695D-7E55-4E44-A9A6-1D1129F40D1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA60695D-7E55-4E44-A9A6-1D1129F40D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA60695D-7E55-4E44-A9A6-1D1129F40D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA60695D-7E55-4E44-A9A6-1D1129F40D1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35581AB3-764D-4A1A-91C7-D814DC189EE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35581AB3-764D-4A1A-91C7-D814DC189EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35581AB3-764D-4A1A-91C7-D814DC189EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35581AB3-764D-4A1A-91C7-D814DC189EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E72F3D41-37A6-4DE3-A9FD-2EA36B18A90F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E72F3D41-37A6-4DE3-A9FD-2EA36B18A90F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E72F3D41-37A6-4DE3-A9FD-2EA36B18A90F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E72F3D41-37A6-4DE3-A9FD-2EA36B18A90F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9488D8CA-245D-421C-AC76-6D25D33EE23E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9488D8CA-245D-421C-AC76-6D25D33EE23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9488D8CA-245D-421C-AC76-6D25D33EE23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9488D8CA-245D-421C-AC76-6D25D33EE23E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3358A0FA-3F0A-4E7C-BB71-50D410543CD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3358A0FA-3F0A-4E7C-BB71-50D410543CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3358A0FA-3F0A-4E7C-BB71-50D410543CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3358A0FA-3F0A-4E7C-BB71-50D410543CD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

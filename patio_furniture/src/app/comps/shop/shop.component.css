@@ -1,0 +1,24 @@
+body{direction: rtl;}
+#shopCats{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 1 1 20%; /* פריסת כרטיסים עם רווחים */
+
+}
+.shopCard{
+    width:50%;
+    margin: 50px;
+    height: 37%;
+}
+body{
+    direction: rtl;
+ 
+}
+.v{
+
+    width: 30%;
+    margin: 50px;
+    height: 37%;
+
+}

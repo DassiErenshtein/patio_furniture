@@ -1,0 +1,116 @@
+
+ .login-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 1050;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1040; 
+  }
+  
+  .login-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 1050; 
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .valid input.is-invalid{
+    border: red;
+  } 
+  .valid input.is-valid{
+    border: green solid 2px;
+  }
+  .valid input.initial-invalid{
+    border: black solid 2px;
+  }
+  .was-validated .form-control:invalid.initial-invalid{
+    border:none;
+  }
+  .was-validated .form-control:valid.is-invalid{
+    border: red solid 2px;
+  }
+  .was-validated .form-control:valid:focus.is-invalid{
+    box-shadow: 0 0 0 .2rem rgba(220, 53, 69, .25);
+  }
+   /* batya */
+  .login-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: rgba(255, 255, 255, 0.9); /* צבע לבן עם שקיפות */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 1050; /* מעל הרקע החוסם */
+    overflow: hidden;
+  }
+  
+  .modal-backdrop {
+    background-image: url('../../../../public/a2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.20; /* שקיפות לתמונה */
+    z-index: -1; /* מאחורי הטקסט */
+  }
+  input {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }

@@ -1,0 +1,34 @@
+<div class="backdrop" (click)="closeLogin()"></div>
+<div class="login-modal">
+  <div class="modal-backdrop"></div>
+  <button class="close-btn" (click)="closeLogin()">×</button>
+  <h3>{{nameArr}}</h3>
+  <form class="was-validated" #myForm="ngForm">
+    @for(a of arrayForm;track a ){
+    @if(a.type!="submit"&&a.type!="changePage"){
+    <div class="mb-3 mt-3">
+      <label [for]="a.input" class="form-label">{{a.input}}</label>
+      <input [type]="a.type" class="form-control valid" [placeholder]="a.input" [name]="a.input?a.input:''"
+        [(ngModel)]="a.value" required #inputRef="ngModel" [ngClass]="{
+          'is-invalid': inputRef.touched && !a.func(a.value),
+          'is-valid': inputRef.touched && a.func(a.value),
+          'initial-invalid': inputRef.untouched
+        }">
+      @if((inputRef.dirty||inputRef.touched))
+      {
+      <div class="invalid-feedback">
+        <p [hidden]="a.func(a.value?a.value:'')">קלט לא תקין</p>
+      </div>
+      }
+    </div>
+    }
+    @else if(a.type=="submit") {
+    <button type="submit" (click)="save(a.func)" class="btn btn-primary" [disabled]="!myForm.valid">Submit</button>
+    }
+    @else {
+    <p (click)="changArr(a.value)">{{a.input}}</p>
+
+    }
+    }
+  </form>
+</div>

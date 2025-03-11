@@ -1,0 +1,95 @@
+/* עיצוב כללי */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* פריסת העמוד */
+.page-container {
+  display: flex; /* פריסה אופקית */
+  flex-direction: row; /* אזור הסינון בצד שמאל, הכרטיסים בצד ימין */
+  height: 100vh; /* גובה מלא של הדף */
+  overflow: hidden;
+}
+
+/* אזור הסינון */
+.filter-section {
+  width: 20%; /* אזור הסינון תופס 20% מרוחב הדף */
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-right: 2px solid #ddd;
+  box-sizing: border-box;
+}
+
+.filter-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filter-section div {
+  margin-bottom: 20px;
+}
+
+.filter-section label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.filter-section select,
+.filter-section input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.filter-section app-button {
+  width: 100%;
+  padding: 10px;
+  background-color:#088178 ;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-section app-button:hover {
+  background-color: #cce7d0;
+}
+
+/* אזור הכרטיסים */
+.cards-section {
+  flex: 1; /* תופס את שאר רוחב הדף */
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.cards-section h1 {
+  margin-bottom: 20px;
+  direction: rtl;
+}
+
+.p {
+  display: flex;
+  flex-wrap: wrap; /* סידור כרטיסים בשורות */
+  /* gap: 20px; */
+}
+.p *{
+  width:25%;
+}
+
+.v {
+  width: calc(33.333% - 20px); /* שלוש עמודות */
+}
+#sort{
+  display: flex;
+  justify-content: space-around;
+}
+#sort button{
+  width:48%;
+  background-color: gray;
+  padding: 1px;
+}

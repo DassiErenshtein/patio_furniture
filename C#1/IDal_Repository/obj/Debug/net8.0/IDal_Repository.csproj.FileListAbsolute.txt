@@ -1,0 +1,16 @@
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\C#1\IDal_Repository\bin\Debug\net8.0\IDal_Repository.deps.json
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\C#1\IDal_Repository\bin\Debug\net8.0\IDal_Repository.dll
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\C#1\IDal_Repository\bin\Debug\net8.0\IDal_Repository.pdb
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\C#1\IDal_Repository\bin\Debug\net8.0\Dto_Command.dll
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\C#1\IDal_Repository\bin\Debug\net8.0\Dto_Command.pdb
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\C#1\IDal_Repository\obj\Debug\net8.0\IDal_Repository.csproj.AssemblyReference.cache
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\C#1\IDal_Repository\obj\Debug\net8.0\IDal_Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\C#1\IDal_Repository\obj\Debug\net8.0\IDal_Repository.AssemblyInfoInputs.cache
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\C#1\IDal_Repository\obj\Debug\net8.0\IDal_Repository.AssemblyInfo.cs
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\C#1\IDal_Repository\obj\Debug\net8.0\IDal_Repository.csproj.CoreCompileInputs.cache
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\C#1\IDal_Repository\obj\Debug\net8.0\IDal_Repository.sourcelink.json
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\C#1\IDal_Repository\obj\Debug\net8.0\IDal_Rep.DB9DD4D0.Up2Date
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\C#1\IDal_Repository\obj\Debug\net8.0\IDal_Repository.dll
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\C#1\IDal_Repository\obj\Debug\net8.0\refint\IDal_Repository.dll
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\C#1\IDal_Repository\obj\Debug\net8.0\IDal_Repository.pdb
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\C#1\IDal_Repository\obj\Debug\net8.0\ref\IDal_Repository.dll

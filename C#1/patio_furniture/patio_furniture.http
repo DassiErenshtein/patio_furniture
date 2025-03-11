@@ -1,0 +1,6 @@
+@patio_furniture_HostAddress = http://localhost:5202
+
+GET {{patio_furniture_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

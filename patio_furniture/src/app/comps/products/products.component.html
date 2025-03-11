@@ -1,0 +1,66 @@
+<div class="page-container">
+
+    <!-- אזור סינון מוצרים -->
+    <div class="filter-section">
+      <h2>סינון מוצרים</h2>
+  
+      <!-- בחירת קטגוריה -->
+      <div>
+        @if(codeCategory == undefined) {
+          <label for="categorySelect">בחר קטגוריה</label>
+          <select class="form-select" id="categorySelect" name="categorySelect" [(ngModel)]="selected[0]">
+            <option [value]="0">בחר קטגוריה</option>
+            @for (c of categorys; track $index) {
+              <option [value]="c.id">{{ c.nameC }}</option>
+            }
+          </select>
+        }
+      </div>
+  
+      <!-- בחירת חברה -->
+      <div>
+        <label for="companySelect">בחר חברה</label>
+        <select class="form-select" id="companySelect" name="companySelect" [(ngModel)]="selected[1]">
+          <option [value]="0">בחר חברה</option>
+          @for (c of companies; track $index) {
+            <option [value]="c.id">{{ c.nameC }}</option>
+          }
+        </select>
+      </div>
+  
+      <!-- בחירת טווח מחירים -->
+      <div>
+        <p>בחר סכום מינימום</p>
+        <input type="number" id="minInput" class="custom-input" placeholder="מינימום" [(ngModel)]="selected[2]" (blur)="checkEmpty(2)" />
+      </div>
+      <div>
+        <p>בחר סכום מקסימום</p>
+        <input type="number" id="maxInput" class="custom-input" placeholder="מקסימום" [(ngModel)]="selected[3]" (blur)="checkEmpty(3)" />
+      </div>
+  
+      <!-- כפתור לסינון מוצרים -->
+      <div>
+        <app-button (myEvent)="filter1()" text="לסינון" iconName="fa-solid fa-filter" class="btn"></app-button>
+      </div>
+  
+      <!-- כפתורים למיון מוצרים לפי מחיר -->
+      <div id="sort">
+        <app-button (myEvent)="sorting(smallToBig)" text="מחיר מהגבוה לנמוך" iconName="fa-solid fa-sort-amount-down-alt"></app-button>
+        <app-button (myEvent)="sorting(bigToSmall)" text="מחיר מהנמוך לגבוה" iconName="fa-solid fa-sort-amount-up"></app-button>
+      </div>
+    </div>
+  
+    <!-- אזור הצגת המוצרים -->
+    <div class="cards-section">
+      <h1>{{codeCategory && products[0] ? products[0].nameCat : "כל המוצרים"}}</h1>
+      <div class="p">
+        @for (p of products; track p) {
+          <div class="v">
+            <app-card-shop [product]="p"></app-card-shop>
+          </div>
+        }
+      </div>
+    </div>
+  
+  </div>
+  

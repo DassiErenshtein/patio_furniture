@@ -1,0 +1,125 @@
+<div class="stop-scroll">
+    <header>
+        <div class="text">
+            <h2>Welcome</h2>
+            <h1>GAR10</h1>
+            <div class="arrow">
+                <span class="left"></span>
+                <i class="fas fa-asterisk"></i>
+                <span class="right"></span>
+            </div>
+            
+        </div>
+        <svg class="svg-down" width="192" height="61" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            viewBox="0 0 160.7 61.5" enable-background="new 0 0 160.7 61.5" xml:space="preserve">
+            <path fill="currentColor"
+                d="M80.3,61.5c0,0,22.1-2.7,43.1-5.4s41-5.4,36.6-5.4c-21.7,0-34.1-12.7-44.9-25.4S95.3,0,80.3,0c-15,0-24.1,12.7-34.9,25.4S22.3,50.8,0.6,50.8c-4.3,0-6.5,0,3.5,1.3S36.2,56.1,80.3,61.5z">
+            </path>
+        </svg>
+        <div class="arrow-down" (click)="scrollDown()">
+        </div>
+    </header>
+    <!--End Header-->
+
+    <!--start About Us-->
+    <div class="about-us" >
+        <div class="text">
+            <h2 id="about">Gar10</h2>
+            <h3>הסיפור שלנו</h3>
+            <div><i class="fas fa-asterisk"></i></div>
+            <p>GAR10 הוקמה מתוך אהבה לחצרות מטופחות ולחיים תחת כיפת השמיים. אנחנו מאמינים שחצר היא יותר מסתם חלל – היא
+                המקום שבו משפחה, חברים וזיכרונות ייחודיים נוצרים. לכן, אנו מקדישים את מירב המאמצים להביא לכם מוצרים
+                שמשלבים פונקציונליות גבוהה עם עיצובים עדכניים ואסתטיקה בלתי מתפשרת.</p>
+        </div>
+        <div class="image-container">
+            <div class="image image1">
+                <img [src]="'homePage/'+imgs[1]" alt="Food Photo">
+            </div>
+            <div class="image image2">
+                <img [src]="'homePage/'+imgs[4]" alt="Food Photo">
+            </div>
+        </div>
+    </div>
+    <!--End About Us-->
+
+    <!--start Recipes-->
+    <div class="recipes">
+        <div class="image"></div>
+        <div class="text">
+            <h2>Comfortable</h2>
+            <h3>Sofas</h3>
+        </div>
+    </div>
+    <!--End sofas-->
+
+    <!--start Menu-->
+    <div class="menu">
+        <div class="box-model">
+            <i class="fas fa-times fa-2x close"></i>
+            <div class="arrow">
+                <div class="arrow arrow-right"></div>
+                <div class="arrow arrow-left"></div>
+            </div>
+            <div class="box-image-container">
+                <div class="box-image">
+                    <img [src]="'homePage/'+imgs[4]" alt="Food Photo">
+                </div>
+            </div>
+        </div>
+        <div class="menu-image-container">
+            @for(item of population;track item.id){
+            <div class="image active">
+                <app-card-cat [path]="'/detailsProd/'+item?.id" [url]="getUrl(item)"
+                    [nameCard]="item.nameP"></app-card-cat>
+            </div>
+            }
+        </div>
+        <div class="text">
+            <h2>Gar10</h2>
+            <h3>Populate</h3>
+            <div><i class="fas fa-asterisk"></i></div>
+            <p><span>Gar10</span>
+                הפכה לשם דבר בכל מה שקשור לעיצוב החצר שלכם, ואנחנו גאים להיות
+                הבחירה המועדפת על אלפי לקוחות ברחבי הארץ! הפופולריות שלנו נובעת מהיכולת שלנו להעניק שילוב מנצח של מוצרים
+                איכותיים, שירות ללא תחרות ומחירים שמתאימים לכל כיס.
+                המוצרים הפופולריים ביותר שלנו כוללים מערכות ישיבה מפנקות, נדנדות מושלמות לכל גיל, ותאורת חצר שתהפוך כל
+                ערב בחוץ לחוויה קסומה. כל מוצר נבחר בקפידה ומעוצב מתוך מחשבה על הצרכים שלכם, כדי לוודא שאתם נהנים מחצר
+                מעוצבת ונוחה לאורך זמן.
+            </p>
+            <div><a class="a-CTA" href="#">View The Full Menu</a></div>
+        </div>
+    </div>
+    <!--End Menu-->
+
+    <!--Start fixed-image-->
+    <div class="fixed-image">
+        <div class="text">
+            <h2>The Perfect</h2>
+            <h3>finish</h3>
+        </div>
+    </div>
+    <!--End fixed-image-->
+
+    <!--start About Us-->
+    <div class="reservation">
+        <div class="text">
+            <h2>Gar10</h2>
+            <h3>Categories</h3>
+            <div><i class="fas fa-asterisk"></i></div>
+            <p>ב-GAR10 אנו מאמינים ביצירת חוויה מלאה ומגוונת לכל לקוח. הרב-תחומיות שלנו מתבטאת בהיצע רחב של מוצרים
+                המשלימים זה את זה – מתאורה שתאיר כל פינה בחצר, דרך מערכות ישיבה מעוצבות ומפנקות, ועד נדנדות, ערסלים
+                וטרמפולינות שמוסיפים מגע של כיף ושלווה.
+                הגישה שלנו נועדה להעניק מענה לכל הצרכים שלכם, תוך שמירה על איזון מושלם בין עיצוב, נוחות ושימושיות. כך,
+                אתם יכולים למצוא את כל מה שדרוש לכם כדי להפוך את החצר שלכם לחלל שוקק חיים ומזמין.</p>
+        </div>
+        <div class="image-container" id="categories">
+            @for(item of categories;track item.id){
+            <div class="image image1">
+                <app-card-cat [path]="'/products/'+item.id" [url]="item.nameC+item.img"
+                    [nameCard]="item.nameC"></app-card-cat>
+            </div>
+            }
+        </div>
+    </div>
+    <!--End About Us-->
+</div>

@@ -6,7 +6,7 @@ A comprehensive e-commerce website for selling patio furniture and accessories. 
 • **Backend**: ASP.NET Core C# 7.0  
 • **Database**: Microsoft SQL Server  
 • **Communication**: REST API
-## Instalation
+## 🔧 Instalation
 ### Backend (C# .NET)
 • Open the solution in Visual Studio.  
 • Configure the appsettings.json file with your SQL Server connection string.  
@@ -20,4 +20,18 @@ cd Angular
 npm install  
 • Run the Angular development server:
 ng serve
+## 📦 Dependencies / Libraries
+### Frontend
+Bootstrap
+
+### Backend
+Entity Framework Core
+## 🚀 Usage
+• Browse available products.  
+• Filter by categories or tags.  
+• Add products to a persistent cart.  
+• Register and log in securely.  
+• Place and manage orders via the user dashboard.  
+• View product history  
+• Pay the amount to be paid at checkout, the shipping option must be relevant
 

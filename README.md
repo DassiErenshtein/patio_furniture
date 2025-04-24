@@ -28,10 +28,15 @@ Bootstrap
 Entity Framework Core
 ## 🚀 Usage
 • Browse available products.  
-• Filter by categories or tags.  
+• Filter by categories, price or tags.  
 • Add products to a persistent cart.  
 • Register and log in securely.  
 • Place and manage orders via the user dashboard.  
-• View product history  
-• Pay the amount to be paid at checkout, the shipping option must be relevant
-
+• View product history.  
+• Pay the amount to be paid at checkout, the shipping option must be relevant.
+## 🐞 Known Bugs / Assumptions
+Assumes user input is validated client-side and re-validated server-side.
+## ☕ Support / Sponsor
+If you like this project, consider giving it a ⭐ or supporting via "Buy Me a Coffee".
+## Author
+Developed by Hadasa Erenshtein

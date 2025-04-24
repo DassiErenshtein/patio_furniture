@@ -2,10 +2,10 @@
 A comprehensive e-commerce website for selling patio furniture and accessories. The platform includes product display with advanced filtering options, a persistent shopping cart that remains active between sessions, purchase saving integrated with a database, handling of exceptional cases such as out-of-stock items, and various other exciting features.
 ## Screenshots
 ## 🛠 Technologies
-• *Frontend*: Angular 16  
-• Backend: ASP.NET Core C# 7.0  
-• Database: Microsoft SQL Server  
-• Communication: REST API
+• **Frontend**: Angular 16  
+• **Backend**: ASP.NET Core C# 7.0  
+• **Database**: Microsoft SQL Server  
+• **Communication**: REST API
 ## Instalation
 ### Backend (C# .NET)
 • Open the solution in Visual Studio.  

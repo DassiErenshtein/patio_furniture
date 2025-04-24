@@ -13,7 +13,7 @@ A comprehensive e-commerce website for selling patio furniture and accessories. 
 • **Backend**: ASP.NET Core C# 7.0  
 • **Database**: Microsoft SQL Server  
 • **Communication**: REST API
-## Installation and Setup
+## 🔧 Installation and Setup
 ### Backend (C# .NET)
 • Open the solution in Visual Studio.  
 • Configure the appsettings.json file with your SQL Server connection string.  

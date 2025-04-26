@@ -35,6 +35,6 @@ http://localhost:4200/
 ## 🐞 Known Bugs / Assumptions
 Assumes user input is validated client-side and re-validated server-side.
 ## ☕ Support / Sponsor
-If you like this project, consider giving it a ⭐ or supporting via "Buy Me a Coffee".
+If you like this project, consider giving it a ⭐.
 ## Author
 Developed by Hadasa Erenshtein

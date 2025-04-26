@@ -4056,11 +4056,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\C#1\\Dal_Repository\\Dal_Repository.csproj",
+      "projectUniqueName": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\for git\\patio_furniture\\CSharp\\Dal_Repository\\Dal_Repository.csproj",
       "projectName": "Dal_Repository",
-      "projectPath": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\C#1\\Dal_Repository\\Dal_Repository.csproj",
+      "projectPath": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\for git\\patio_furniture\\CSharp\\Dal_Repository\\Dal_Repository.csproj",
       "packagesPath": "C:\\Users\\e3226\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\C#1\\Dal_Repository\\obj\\",
+      "outputPath": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\for git\\patio_furniture\\CSharp\\Dal_Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4081,11 +4081,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\C#1\\Dto_Command\\Dto_Command.csproj": {
-              "projectPath": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\C#1\\Dto_Command\\Dto_Command.csproj"
+            "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\for git\\patio_furniture\\CSharp\\Dto_Command\\Dto_Command.csproj": {
+              "projectPath": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\for git\\patio_furniture\\CSharp\\Dto_Command\\Dto_Command.csproj"
             },
-            "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\C#1\\IDal_Repository\\IDal_Repository.csproj": {
-              "projectPath": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\C#1\\IDal_Repository\\IDal_Repository.csproj"
+            "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\for git\\patio_furniture\\CSharp\\IDal_Repository\\IDal_Repository.csproj": {
+              "projectPath": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\for git\\patio_furniture\\CSharp\\IDal_Repository\\IDal_Repository.csproj"
             }
           }
         }

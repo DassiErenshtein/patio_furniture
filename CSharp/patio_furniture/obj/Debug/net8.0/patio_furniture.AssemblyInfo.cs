@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("3c43a070-7158-4ae8-b647-f6f233e159f8")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("patio_furniture")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb28a31313d349dea3fe26f05c20a9702ee278ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c362873b92f59b93f5872bf14d28f3600b11da54")]
 [assembly: System.Reflection.AssemblyProductAttribute("patio_furniture")]
 [assembly: System.Reflection.AssemblyTitleAttribute("patio_furniture")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\C#1\\IBll_Services\\IBll_Services.csproj": {}
+    "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\for git\\patio_furniture\\CSharp\\IBll_Services\\IBll_Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\C#1\\Dto_Command\\Dto_Command.csproj": {
+    "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\for git\\patio_furniture\\CSharp\\Dto_Command\\Dto_Command.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\C#1\\Dto_Command\\Dto_Command.csproj",
+        "projectUniqueName": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\for git\\patio_furniture\\CSharp\\Dto_Command\\Dto_Command.csproj",
         "projectName": "Dto_Command",
-        "projectPath": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\C#1\\Dto_Command\\Dto_Command.csproj",
+        "projectPath": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\for git\\patio_furniture\\CSharp\\Dto_Command\\Dto_Command.csproj",
         "packagesPath": "C:\\Users\\e3226\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\C#1\\Dto_Command\\obj\\",
+        "outputPath": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\for git\\patio_furniture\\CSharp\\Dto_Command\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\C#1\\IBll_Services\\IBll_Services.csproj": {
+    "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\for git\\patio_furniture\\CSharp\\IBll_Services\\IBll_Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\C#1\\IBll_Services\\IBll_Services.csproj",
+        "projectUniqueName": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\for git\\patio_furniture\\CSharp\\IBll_Services\\IBll_Services.csproj",
         "projectName": "IBll_Services",
-        "projectPath": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\C#1\\IBll_Services\\IBll_Services.csproj",
+        "projectPath": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\for git\\patio_furniture\\CSharp\\IBll_Services\\IBll_Services.csproj",
         "packagesPath": "C:\\Users\\e3226\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\C#1\\IBll_Services\\obj\\",
+        "outputPath": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\for git\\patio_furniture\\CSharp\\IBll_Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,8 +97,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\C#1\\Dto_Command\\Dto_Command.csproj": {
-                "projectPath": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\C#1\\Dto_Command\\Dto_Command.csproj"
+              "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\for git\\patio_furniture\\CSharp\\Dto_Command\\Dto_Command.csproj": {
+                "projectPath": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\פרויקטים\\patio_furniture\\for git\\patio_furniture\\CSharp\\Dto_Command\\Dto_Command.csproj"
               }
             }
           }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IDal_Repository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa6b43f6725381667bb935401664c9e0a65bea6c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e37e80c20392d0cdb9d554bb57206b59807b669")]
 [assembly: System.Reflection.AssemblyProductAttribute("IDal_Repository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IDal_Repository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

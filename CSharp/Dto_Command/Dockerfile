@@ -1,11 +1,12 @@
-FROM mcr.microsoft.com/dotnet/aspnet:8.0-nanoserver-1809 AS base
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
 
-FROM mcr.microsoft.com/dotnet/sdk:8.0-nanoserver-1809 AS build
+USER app
+FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG configuration=Release
 WORKDIR /src
 COPY ["Dto_Command/Dto_Command.csproj", "Dto_Command/"]
-RUN dotnet restore "Dto_Command\Dto_Command.csproj"
+RUN dotnet restore "Dto_Command/Dto_Command.csproj"
 COPY . .
 WORKDIR "/src/Dto_Command"
 RUN dotnet build "Dto_Command.csproj" -c $configuration -o /app/build

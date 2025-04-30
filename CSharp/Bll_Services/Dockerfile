@@ -1,11 +1,12 @@
-FROM mcr.microsoft.com/dotnet/aspnet:8.0-nanoserver-1809 AS base
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
 
-FROM mcr.microsoft.com/dotnet/sdk:8.0-nanoserver-1809 AS build
+USER app
+FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG configuration=Release
 WORKDIR /src
 COPY ["Bll_Services/Bll_Services.csproj", "Bll_Services/"]
-RUN dotnet restore "Bll_Services\Bll_Services.csproj"
+RUN dotnet restore "Bll_Services/Bll_Services.csproj"
 COPY . .
 WORKDIR "/src/Bll_Services"
 RUN dotnet build "Bll_Services.csproj" -c $configuration -o /app/build

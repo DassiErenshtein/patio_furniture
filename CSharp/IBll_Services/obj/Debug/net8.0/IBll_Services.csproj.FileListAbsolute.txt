@@ -14,3 +14,19 @@ C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\C#1\IBl
 C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\C#1\IBll_Services\obj\Debug\net8.0\refint\IBll_Services.dll
 C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\C#1\IBll_Services\obj\Debug\net8.0\IBll_Services.pdb
 C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\C#1\IBll_Services\obj\Debug\net8.0\ref\IBll_Services.dll
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\for git\patio_furniture\CSharp\IBll_Services\bin\Debug\net8.0\IBll_Services.deps.json
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\for git\patio_furniture\CSharp\IBll_Services\bin\Debug\net8.0\IBll_Services.dll
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\for git\patio_furniture\CSharp\IBll_Services\bin\Debug\net8.0\IBll_Services.pdb
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\for git\patio_furniture\CSharp\IBll_Services\bin\Debug\net8.0\Dto_Command.dll
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\for git\patio_furniture\CSharp\IBll_Services\bin\Debug\net8.0\Dto_Command.pdb
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\for git\patio_furniture\CSharp\IBll_Services\obj\Debug\net8.0\IBll_Services.csproj.AssemblyReference.cache
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\for git\patio_furniture\CSharp\IBll_Services\obj\Debug\net8.0\IBll_Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\for git\patio_furniture\CSharp\IBll_Services\obj\Debug\net8.0\IBll_Services.AssemblyInfoInputs.cache
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\for git\patio_furniture\CSharp\IBll_Services\obj\Debug\net8.0\IBll_Services.AssemblyInfo.cs
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\for git\patio_furniture\CSharp\IBll_Services\obj\Debug\net8.0\IBll_Services.csproj.CoreCompileInputs.cache
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\for git\patio_furniture\CSharp\IBll_Services\obj\Debug\net8.0\IBll_Services.sourcelink.json
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\for git\patio_furniture\CSharp\IBll_Services\obj\Debug\net8.0\IBll_Ser.707742D7.Up2Date
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\for git\patio_furniture\CSharp\IBll_Services\obj\Debug\net8.0\IBll_Services.dll
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\for git\patio_furniture\CSharp\IBll_Services\obj\Debug\net8.0\refint\IBll_Services.dll
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\for git\patio_furniture\CSharp\IBll_Services\obj\Debug\net8.0\IBll_Services.pdb
+C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\for git\patio_furniture\CSharp\IBll_Services\obj\Debug\net8.0\ref\IBll_Services.dll

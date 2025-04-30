@@ -46,12 +46,12 @@
             "dockerBuild": {
                 "tag": "csharp:dev",
                 "target": "base",
-                "dockerfile": "${workspaceFolder}/Bll_Services/Dockerfile",
+                "dockerfile": "${workspaceFolder}/patio_furniture/Dockerfile",
                 "context": "${workspaceFolder}",
                 "pull": true
             },
             "netCore": {
-                "appProject": "${workspaceFolder}/Bll_Services/Bll_Services.csproj"
+                "appProject": "${workspaceFolder}/patio_furniture/patio_furniture.csproj"
             }
         },
         {
@@ -62,16 +62,16 @@
             ],
             "dockerBuild": {
                 "tag": "csharp:latest",
-                "dockerfile": "${workspaceFolder}/Bll_Services/Dockerfile",
+                "dockerfile": "${workspaceFolder}/patio_furniture/Dockerfile",
                 "context": "${workspaceFolder}",
                 "platform": {
-                    "os": "windows",
+                    "os": "linux",
                     "architecture": "amd64"
                 },
                 "pull": true
             },
             "netCore": {
-                "appProject": "${workspaceFolder}/Bll_Services/Bll_Services.csproj"
+                "appProject": "${workspaceFolder}/patio_furniture/patio_furniture.csproj"
             }
         },
         {
@@ -80,11 +80,9 @@
             "dependsOn": [
                 "docker-build: debug"
             ],
-            "dockerRun": {
-                "os": "Windows"
-            },
+            "dockerRun": {},
             "netCore": {
-                "appProject": "${workspaceFolder}/Bll_Services/Bll_Services.csproj",
+                "appProject": "${workspaceFolder}/patio_furniture/patio_furniture.csproj",
                 "enableDebugging": true
             }
         },
@@ -94,11 +92,9 @@
             "dependsOn": [
                 "docker-build: release"
             ],
-            "dockerRun": {
-                "os": "Windows"
-            },
+            "dockerRun": {},
             "netCore": {
-                "appProject": "${workspaceFolder}/Bll_Services/Bll_Services.csproj"
+                "appProject": "${workspaceFolder}/patio_furniture/patio_furniture.csproj"
             }
         }
     ]

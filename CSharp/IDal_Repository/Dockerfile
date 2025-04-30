@@ -1,11 +1,12 @@
-FROM mcr.microsoft.com/dotnet/aspnet:8.0-nanoserver-1809 AS base
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
 
-FROM mcr.microsoft.com/dotnet/sdk:8.0-nanoserver-1809 AS build
+USER app
+FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG configuration=Release
 WORKDIR /src
 COPY ["IDal_Repository/IDal_Repository.csproj", "IDal_Repository/"]
-RUN dotnet restore "IDal_Repository\IDal_Repository.csproj"
+RUN dotnet restore "IDal_Repository/IDal_Repository.csproj"
 COPY . .
 WORKDIR "/src/IDal_Repository"
 RUN dotnet build "IDal_Repository.csproj" -c $configuration -o /app/build

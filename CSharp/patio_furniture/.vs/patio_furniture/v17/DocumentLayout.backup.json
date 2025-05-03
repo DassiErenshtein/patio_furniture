@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\for git\\patio_furniture\\CSharp\\patio_furniture\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{735A08C0-1211-4923-B5DA-E857234DA949}|patio_furniture.csproj|c:\\users\\e3226\\documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\for git\\patio_furniture\\csharp\\patio_furniture\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{735A08C0-1211-4923-B5DA-E857234DA949}|patio_furniture.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{735A08C0-1211-4923-B5DA-E857234DA949}|patio_furniture.csproj|c:\\users\\e3226\\documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\for git\\patio_furniture\\csharp\\patio_furniture\\controllers\\buycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{735A08C0-1211-4923-B5DA-E857234DA949}|patio_furniture.csproj|solutionrelative:controllers\\buycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,11 +45,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\for git\\patio_furniture\\CSharp\\patio_furniture\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\for git\\patio_furniture\\CSharp\\patio_furniture\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-02T10:25:59.399Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -53,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\for git\\patio_furniture\\CSharp\\patio_furniture\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
@@ -65,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "buyDal.cs",
               "DocumentMoniker": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Dal_Repository\\buyDal.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\C#1\\Dal_Repository\\buyDal.cs",
@@ -77,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Buy.cs",
               "DocumentMoniker": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Dal_Repository\\models\\Buy.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\C#1\\Dal_Repository\\models\\Buy.cs",
@@ -89,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\for git\\patio_furniture\\CSharp\\patio_furniture\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -101,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "purchaseDal.cs",
               "DocumentMoniker": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Dal_Repository\\purchaseDal.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\C#1\\Dal_Repository\\purchaseDal.cs",
@@ -113,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ProdDal.cs",
               "DocumentMoniker": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Dal_Repository\\ProdDal.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\C#1\\Dal_Repository\\ProdDal.cs",
@@ -125,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "productController.cs",
               "DocumentMoniker": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\for git\\patio_furniture\\CSharp\\patio_furniture\\Controllers\\productController.cs",
               "RelativeDocumentMoniker": "Controllers\\productController.cs",
@@ -137,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "funcBuy.cs",
               "DocumentMoniker": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Bll_Services\\funcBuy.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\C#1\\Bll_Services\\funcBuy.cs",
@@ -149,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "buyController.cs",
               "DocumentMoniker": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\for git\\patio_furniture\\CSharp\\patio_furniture\\Controllers\\buyController.cs",
               "RelativeDocumentMoniker": "Controllers\\buyController.cs",

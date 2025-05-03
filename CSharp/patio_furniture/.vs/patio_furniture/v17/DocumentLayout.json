@@ -45,11 +45,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
@@ -59,14 +63,10 @@
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\for git\\patio_furniture\\CSharp\\patio_furniture\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAiwAkAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvwcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-02T10:25:59.399Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
@@ -174,8 +174,7 @@
               "RelativeToolTip": "Controllers\\buyController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T22:53:06.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T22:53:06.948Z"
             }
           ]
         }

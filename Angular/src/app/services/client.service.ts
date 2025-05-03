@@ -190,7 +190,7 @@ export class ClientService {
       }
     }
   ]
-  public url: string = 'https://localhost:7286/api/client'
+  public url: string = 'https://patio-furniture.onrender.com/api/client'
   thisClient: Client = new Client()
   constructor(public cf: HttpClient, public route: Router, public l: Location) { }
   //שליחה לפונקציות אלו מפונקציות השליחה שנשלחו מכאן

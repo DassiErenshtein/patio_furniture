@@ -9,10 +9,10 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ProductService {
   constructor(public cf: HttpClient) { }
-  public url: string = 'https://localhost:7286/api/product'
+  public url: string = 'https://patio-furniture.onrender.com/api/product'
   getByCat(catId: number): Observable<Array<Product>> {
     debugger
-    return this.cf.get<Array<Product>>(`https://localhost:7286/api/product/byCat/${catId}`)
+    return this.cf.get<Array<Product>>(`https://patio-furniture.onrender.com/api/product/byCat/${catId}`)
   }
   getAllProd(): Observable<Array<Product>> {
     return this.cf.get<Array<Product>>(this.url)
@@ -23,7 +23,7 @@ export class ProductService {
   }
   filter1(selected: Array<number>): Observable<Array<Product>> {
     debugger
-    return this.cf.get<Array<Product>>(`https://localhost:7286/api/product/filter?minPrice=${selected[2]}&maxPrice=${selected[3]}&codeCat=${selected[0]}&codeComp=${selected[1]}`)
+    return this.cf.get<Array<Product>>(`https://patio-furniture.onrender.com/api/product/filter?minPrice=${selected[2]}&maxPrice=${selected[3]}&codeCat=${selected[0]}&codeComp=${selected[1]}`)
 
   }
   getPopulation(): Observable<Array<Product>> {

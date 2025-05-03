@@ -10,7 +10,7 @@ export class CompanyService {
 
   constructor(public cf:HttpClient) { }
     
-    public url:string='https://localhost:7286/api/company'
+    public url:string='https://patio-furniture.onrender.com/api/company'
     getAll():Observable<Array<Company>>{
       debugger
       return this.cf.get<Array<Company>>(this.url)

@@ -25,10 +25,11 @@ builder.Services.AddScoped<IBll_Services.IProductBll, Bll_Services.funcProd>();
 builder.Services.AddScoped<IBll_Services.IBll<DTO_Command.Company>, Bll_Services.funcComp>();
 builder.Services.AddScoped<IBll_Services.IClientBll, Bll_Services.funcClient>();
 builder.Services.AddScoped<IBll_Services.IBuyBll, Bll_Services.funcBuy>();
+var connectionString = builder.Configuration.GetConnectionString("connectionSql");
 
 builder.Services.AddDbContext<Dal_Repository.models.PatioFurnitureContext>
 (options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("connectionSql")));
+options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -10,7 +10,7 @@ export class CategoryService{
   
   constructor(public cf:HttpClient) { }
   
-  public url:string='https://localhost:7286/api/category'
+  public url:string='https://patio-furniture.onrender.com/api/category'
   getAll():Observable<Array<Category>>{
     return this.cf.get<Array<Category>>(this.url)
   }

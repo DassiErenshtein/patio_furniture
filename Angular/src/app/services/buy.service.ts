@@ -17,7 +17,7 @@ export class BuyService {
     this.cart = new Buy(0, this.cs.thisClient.id || "", new Date(), 0, "", new Array<Product>())
   }
   cart!: Buy
-  public url: string = 'https://localhost:7286/api/buy'
+  public url: string = 'https://patio-furniture.onrender.com/api/buy'
   //להמשיך איתו ולא ליצור חדש STORAGEאתחול הסל, אם קיים ב
   start() {
     let cart = localStorage.getItem('cart')

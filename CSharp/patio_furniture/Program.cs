@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("connectionSql");
 
 // Add services to the container.
 
@@ -25,7 +26,6 @@ builder.Services.AddScoped<IBll_Services.IProductBll, Bll_Services.funcProd>();
 builder.Services.AddScoped<IBll_Services.IBll<DTO_Command.Company>, Bll_Services.funcComp>();
 builder.Services.AddScoped<IBll_Services.IClientBll, Bll_Services.funcClient>();
 builder.Services.AddScoped<IBll_Services.IBuyBll, Bll_Services.funcBuy>();
-var connectionString = builder.Configuration.GetConnectionString("connectionSql");
 
 builder.Services.AddDbContext<Dal_Repository.models.PatioFurnitureContext>
 (options =>

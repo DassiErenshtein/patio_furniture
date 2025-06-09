@@ -26,10 +26,14 @@ Clone the repository:
 git clone [https://github.com/DassiErenshtein/patio_furniture.git](https://github.com/DassiErenshtein/patio_furniture.git)  
 • Navigate to the frontend folder:  
 cd Angular  
-• Install dependencies:  
-npm install  
+• Install dependencies: 
+```bash
+npm install
+```
 • Run the Angular development server:
+```bash
 ng serve
+```
 • Open a browser and navigate to:  
 http://localhost:4200/
 ## 🐞 Known Bugs / Assumptions

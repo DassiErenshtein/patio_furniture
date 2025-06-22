@@ -22,3 +22,15 @@ C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\for git
 C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\for git\patio_furniture\CSharp\Dto_Command\obj\Debug\net8.0\refint\Dto_Command.dll
 C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\for git\patio_furniture\CSharp\Dto_Command\obj\Debug\net8.0\Dto_Command.pdb
 C:\Users\e3226\Documents\dassi\maslul\b\פרויקטים\patio_furniture\for git\patio_furniture\CSharp\Dto_Command\obj\Debug\net8.0\ref\Dto_Command.dll
+C:\Users\e3226\Documents\dassi\maslul\b\projects\patio_furniture\for git\patio_furniture\CSharp\Dto_Command\bin\Debug\net8.0\Dto_Command.deps.json
+C:\Users\e3226\Documents\dassi\maslul\b\projects\patio_furniture\for git\patio_furniture\CSharp\Dto_Command\bin\Debug\net8.0\Dto_Command.dll
+C:\Users\e3226\Documents\dassi\maslul\b\projects\patio_furniture\for git\patio_furniture\CSharp\Dto_Command\bin\Debug\net8.0\Dto_Command.pdb
+C:\Users\e3226\Documents\dassi\maslul\b\projects\patio_furniture\for git\patio_furniture\CSharp\Dto_Command\obj\Debug\net8.0\Dto_Command.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e3226\Documents\dassi\maslul\b\projects\patio_furniture\for git\patio_furniture\CSharp\Dto_Command\obj\Debug\net8.0\Dto_Command.AssemblyInfoInputs.cache
+C:\Users\e3226\Documents\dassi\maslul\b\projects\patio_furniture\for git\patio_furniture\CSharp\Dto_Command\obj\Debug\net8.0\Dto_Command.AssemblyInfo.cs
+C:\Users\e3226\Documents\dassi\maslul\b\projects\patio_furniture\for git\patio_furniture\CSharp\Dto_Command\obj\Debug\net8.0\Dto_Command.csproj.CoreCompileInputs.cache
+C:\Users\e3226\Documents\dassi\maslul\b\projects\patio_furniture\for git\patio_furniture\CSharp\Dto_Command\obj\Debug\net8.0\Dto_Command.sourcelink.json
+C:\Users\e3226\Documents\dassi\maslul\b\projects\patio_furniture\for git\patio_furniture\CSharp\Dto_Command\obj\Debug\net8.0\Dto_Command.dll
+C:\Users\e3226\Documents\dassi\maslul\b\projects\patio_furniture\for git\patio_furniture\CSharp\Dto_Command\obj\Debug\net8.0\refint\Dto_Command.dll
+C:\Users\e3226\Documents\dassi\maslul\b\projects\patio_furniture\for git\patio_furniture\CSharp\Dto_Command\obj\Debug\net8.0\Dto_Command.pdb
+C:\Users\e3226\Documents\dassi\maslul\b\projects\patio_furniture\for git\patio_furniture\CSharp\Dto_Command\obj\Debug\net8.0\ref\Dto_Command.dll

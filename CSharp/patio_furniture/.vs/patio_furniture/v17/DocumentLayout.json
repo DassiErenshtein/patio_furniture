@@ -3,8 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\projects\\patio_furniture\\for git\\patio_furniture\\CSharp\\patio_furniture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{735A08C0-1211-4923-B5DA-E857234DA949}|patio_furniture.csproj|c:\\users\\e3226\\documents\\dassi\\maslul\\b\\projects\\patio_furniture\\for git\\patio_furniture\\csharp\\patio_furniture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{735A08C0-1211-4923-B5DA-E857234DA949}|patio_furniture.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35581AB3-764D-4A1A-91C7-D814DC189EE1}|..\\Dal_Repository\\Dal_Repository.csproj|c:\\users\\e3226\\documents\\dassi\\maslul\\b\\projects\\patio_furniture\\for git\\patio_furniture\\csharp\\dal_repository\\models\\patiofurniturecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\e3226\\AppData\\Roaming\\Microsoft\\UserSecrets\\3c43a070-7158-4ae8-b647-f6f233e159f8\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{735A08C0-1211-4923-B5DA-E857234DA949}|patio_furniture.csproj|c:\\users\\e3226\\documents\\dassi\\maslul\\b\\projects\\patio_furniture\\for git\\patio_furniture\\csharp\\patio_furniture\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{735A08C0-1211-4923-B5DA-E857234DA949}|patio_furniture.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{735A08C0-1211-4923-B5DA-E857234DA949}|patio_furniture.csproj|c:\\users\\e3226\\documents\\dassi\\maslul\\b\\projects\\patio_furniture\\for git\\patio_furniture\\csharp\\patio_furniture\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{735A08C0-1211-4923-B5DA-E857234DA949}|patio_furniture.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Dal_Repository\\buyDal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -37,7 +47,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,68 +55,103 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatioFurnitureContext.cs",
+              "DocumentMoniker": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\projects\\patio_furniture\\for git\\patio_furniture\\CSharp\\Dal_Repository\\Models\\PatioFurnitureContext.cs",
+              "RelativeDocumentMoniker": "..\\Dal_Repository\\Models\\PatioFurnitureContext.cs",
+              "ToolTip": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\projects\\patio_furniture\\for git\\patio_furniture\\CSharp\\Dal_Repository\\Models\\PatioFurnitureContext.cs",
+              "RelativeToolTip": "..\\Dal_Repository\\Models\\PatioFurnitureContext.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAAB0AAAC0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T12:39:02.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\e3226\\AppData\\Roaming\\Microsoft\\UserSecrets\\3c43a070-7158-4ae8-b647-f6f233e159f8\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\3c43a070-7158-4ae8-b647-f6f233e159f8\\secrets.json",
+              "ToolTip": "C:\\Users\\e3226\\AppData\\Roaming\\Microsoft\\UserSecrets\\3c43a070-7158-4ae8-b647-f6f233e159f8\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\3c43a070-7158-4ae8-b647-f6f233e159f8\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-16T17:29:54.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\projects\\patio_furniture\\for git\\patio_furniture\\CSharp\\patio_furniture\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\projects\\patio_furniture\\for git\\patio_furniture\\CSharp\\patio_furniture\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-16T17:29:08.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\projects\\patio_furniture\\for git\\patio_furniture\\CSharp\\patio_furniture\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\projects\\patio_furniture\\for git\\patio_furniture\\CSharp\\patio_furniture\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-16T17:28:59.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "buyDal.cs",
               "DocumentMoniker": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Dal_Repository\\buyDal.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Dal_Repository\\buyDal.cs",
               "ToolTip": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Dal_Repository\\buyDal.cs",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Dal_Repository\\buyDal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T22:41:26.07Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Buy.cs",
               "DocumentMoniker": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Dal_Repository\\models\\Buy.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Dal_Repository\\models\\Buy.cs",
               "ToolTip": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Dal_Repository\\models\\Buy.cs",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Dal_Repository\\models\\Buy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T22:41:21.597Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\projects\\patio_furniture\\for git\\patio_furniture\\CSharp\\patio_furniture\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\projects\\patio_furniture\\for git\\patio_furniture\\CSharp\\patio_furniture\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAIwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T21:38:59.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "purchaseDal.cs",
               "DocumentMoniker": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Dal_Repository\\purchaseDal.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Dal_Repository\\purchaseDal.cs",
               "ToolTip": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Dal_Repository\\purchaseDal.cs",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Dal_Repository\\purchaseDal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-01T23:09:07.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "ProdDal.cs",
               "DocumentMoniker": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Dal_Repository\\ProdDal.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Dal_Repository\\ProdDal.cs",
               "ToolTip": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Dal_Repository\\ProdDal.cs",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Dal_Repository\\ProdDal.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAkwCcAAACPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-01T19:20:12.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "productController.cs",
               "DocumentMoniker": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\projects\\patio_furniture\\for git\\patio_furniture\\CSharp\\patio_furniture\\Controllers\\productController.cs",
               "RelativeDocumentMoniker": "Controllers\\productController.cs",
@@ -114,23 +159,23 @@
               "RelativeToolTip": "Controllers\\productController.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAUwCIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T19:19:31.823Z"
+              "WhenOpened": "2025-02-01T19:19:31.823Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "funcBuy.cs",
               "DocumentMoniker": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Bll_Services\\funcBuy.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Bll_Services\\funcBuy.cs",
               "ToolTip": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Bll_Services\\funcBuy.cs",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\u05D9\u05DD\\patio_furniture\\C#1\\Bll_Services\\funcBuy.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAkwGoAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-01T17:18:40.665Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "buyController.cs",
               "DocumentMoniker": "C:\\Users\\e3226\\Documents\\dassi\\maslul\\b\\projects\\patio_furniture\\for git\\patio_furniture\\CSharp\\patio_furniture\\Controllers\\buyController.cs",
               "RelativeDocumentMoniker": "Controllers\\buyController.cs",
@@ -138,7 +183,8 @@
               "RelativeToolTip": "Controllers\\buyController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T22:53:06.948Z"
+              "WhenOpened": "2025-01-23T22:53:06.948Z",
+              "EditorCaption": ""
             }
           ]
         }

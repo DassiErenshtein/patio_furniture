@@ -1312,7 +1312,8 @@
         "dependencies": {
           "Dto_Command": "1.0.0",
           "IDal_Repository": "1.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0",
+          "Pomelo.EntityFrameworkCore.MySql": "8.0.3"
         },
         "compile": {
           "bin/placeholder/Dal_Repository.dll": {}

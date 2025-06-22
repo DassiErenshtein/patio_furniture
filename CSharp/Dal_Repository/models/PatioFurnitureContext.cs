@@ -26,150 +26,155 @@ public partial class PatioFurnitureContext : DbContext
     public virtual DbSet<Product> Products { get; set; }
 
     public virtual DbSet<PurchaseDetail> PurchaseDetails { get; set; }
-
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=.;Database=patio_furniture;Trusted_Connection=True;TrustServerCertificate=True");
+        => optionsBuilder.UseMySql("server=byac3kvjhqok4gtkxgtt-mysql.services.clever-cloud.com;user=uge1euswdobparrh;password=EkOChgdUZE0EJbU0JZnA;database=byac3kvjhqok4gtkxgtt;", new MySqlServerVersion(new Version(8, 0, 0)));
 
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {
-        modelBuilder.Entity<Buy>(entity =>
-        {
-            entity.HasKey(e => e.Id).HasName("PK__buy__3213E83F392A0CEB");
+    //    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+    //        => optionsBuilder.UseMySql(optionsBuilder.configuration.GetConnectionString("DefaultConnection"),
+    //    ServerVersion.AutoDetect(optionsBuilder.Configuration.GetConnectionString("DefaultConnection")))
+    //);
 
-            entity.ToTable("buy");
 
-            entity.Property(e => e.Id).HasColumnName("id");
-            entity.Property(e => e.CodeClient)
-                .HasMaxLength(9)
-                .IsUnicode(false)
-                .HasColumnName("codeClient");
-            entity.Property(e => e.Date)
-                .HasDefaultValueSql("(getdate())")
-                .HasColumnType("datetime")
-                .HasColumnName("date");
-            entity.Property(e => e.Note)
-                .HasMaxLength(20)
-                .HasColumnName("note");
-            entity.Property(e => e.StatusBuy)
-                .HasDefaultValue(false)
-                .HasColumnName("statusBuy");
-            entity.Property(e => e.SumPrice).HasColumnName("sumPrice");
+    //protected override void OnModelCreating(ModelBuilder modelBuilder)
+    //{
+    //    modelBuilder.Entity<Buy>(entity =>
+    //    {
+    //        entity.HasKey(e => e.Id).HasName("PK__buy__3213E83F392A0CEB");
 
-            entity.HasOne(d => d.CodeClientNavigation).WithMany(p => p.Buys)
-                .HasForeignKey(d => d.CodeClient)
-                .HasConstraintName("FK__buy__codeClient__2E1BDC42");
-        });
+    //        entity.ToTable("buy");
 
-        modelBuilder.Entity<Category>(entity =>
-        {
-            entity.HasKey(e => e.Id).HasName("PK__category__3213E83FE11129D2");
+    //        entity.Property(e => e.Id).HasColumnName("id");
+    //        entity.Property(e => e.CodeClient)
+    //            .HasMaxLength(9)
+    //            .IsUnicode(false)
+    //            .HasColumnName("codeClient");
+    //        entity.Property(e => e.Date)
+    //            .HasDefaultValueSql("(getdate())")
+    //            .HasColumnType("datetime")
+    //            .HasColumnName("date");
+    //        entity.Property(e => e.Note)
+    //            .HasMaxLength(20)
+    //            .HasColumnName("note");
+    //        entity.Property(e => e.StatusBuy)
+    //            .HasDefaultValue(false)
+    //            .HasColumnName("statusBuy");
+    //        entity.Property(e => e.SumPrice).HasColumnName("sumPrice");
 
-            entity.ToTable("category");
+    //        entity.HasOne(d => d.CodeClientNavigation).WithMany(p => p.Buys)
+    //            .HasForeignKey(d => d.CodeClient)
+    //            .HasConstraintName("FK__buy__codeClient__2E1BDC42");
+    //    });
 
-            entity.Property(e => e.Id).HasColumnName("id");
-            entity.Property(e => e.Img)
-                .HasMaxLength(50)
-                .IsUnicode(false)
-                .HasColumnName("img");
-            entity.Property(e => e.NameC)
-                .HasMaxLength(50)
-                .HasColumnName("nameC");
-        });
+    //    modelBuilder.Entity<Category>(entity =>
+    //    {
+    //        entity.HasKey(e => e.Id).HasName("PK__category__3213E83FE11129D2");
 
-        modelBuilder.Entity<Client>(entity =>
-        {
-            entity.HasKey(e => e.Id).HasName("PK__client__3213E83FE05635D9");
+    //        entity.ToTable("category");
 
-            entity.ToTable("client");
+    //        entity.Property(e => e.Id).HasColumnName("id");
+    //        entity.Property(e => e.Img)
+    //            .HasMaxLength(50)
+    //            .IsUnicode(false)
+    //            .HasColumnName("img");
+    //        entity.Property(e => e.NameC)
+    //            .HasMaxLength(50)
+    //            .HasColumnName("nameC");
+    //    });
 
-            entity.Property(e => e.Id)
-                .HasMaxLength(9)
-                .IsUnicode(false)
-                .HasColumnName("id");
-            entity.Property(e => e.BearthDate)
-                .HasColumnType("datetime")
-                .HasColumnName("bearthDate");
-            entity.Property(e => e.Email)
-                .HasMaxLength(20)
-                .IsUnicode(false)
-                .HasColumnName("email");
-            entity.Property(e => e.NameC)
-                .HasMaxLength(20)
-                .HasColumnName("nameC");
-            entity.Property(e => e.Phone)
-                .HasMaxLength(10)
-                .IsUnicode(false)
-                .HasColumnName("phone");
-        });
+    //    modelBuilder.Entity<Client>(entity =>
+    //    {
+    //        entity.HasKey(e => e.Id).HasName("PK__client__3213E83FE05635D9");
 
-        modelBuilder.Entity<Company>(entity =>
-        {
-            entity.HasKey(e => e.Id).HasName("PK__company__3213E83F479F26E2");
+    //        entity.ToTable("client");
 
-            entity.ToTable("company");
+    //        entity.Property(e => e.Id)
+    //            .HasMaxLength(9)
+    //            .IsUnicode(false)
+    //            .HasColumnName("id");
+    //        entity.Property(e => e.BearthDate)
+    //            .HasColumnType("datetime")
+    //            .HasColumnName("bearthDate");
+    //        entity.Property(e => e.Email)
+    //            .HasMaxLength(20)
+    //            .IsUnicode(false)
+    //            .HasColumnName("email");
+    //        entity.Property(e => e.NameC)
+    //            .HasMaxLength(20)
+    //            .HasColumnName("nameC");
+    //        entity.Property(e => e.Phone)
+    //            .HasMaxLength(10)
+    //            .IsUnicode(false)
+    //            .HasColumnName("phone");
+    //    });
 
-            entity.Property(e => e.Id).HasColumnName("id");
-            entity.Property(e => e.NameC)
-                .HasMaxLength(20)
-                .HasColumnName("nameC");
-        });
+    //    modelBuilder.Entity<Company>(entity =>
+    //    {
+    //        entity.HasKey(e => e.Id).HasName("PK__company__3213E83F479F26E2");
 
-        modelBuilder.Entity<Product>(entity =>
-        {
-            entity.HasKey(e => e.Id).HasName("PK__product__3213E83FA22CC012");
+    //        entity.ToTable("company");
 
-            entity.ToTable("product");
+    //        entity.Property(e => e.Id).HasColumnName("id");
+    //        entity.Property(e => e.NameC)
+    //            .HasMaxLength(20)
+    //            .HasColumnName("nameC");
+    //    });
 
-            entity.Property(e => e.Id).HasColumnName("id");
-            entity.Property(e => e.Amount).HasColumnName("amount");
-            entity.Property(e => e.CodeCat).HasColumnName("codeCat");
-            entity.Property(e => e.CodeCom).HasColumnName("codeCom");
-            entity.Property(e => e.Descrip)
-                .HasMaxLength(100)
-                .HasColumnName("descrip");
-            entity.Property(e => e.LastUpdate)
-                .HasColumnType("datetime")
-                .HasColumnName("lastUpdate");
-            entity.Property(e => e.NameP)
-                .HasMaxLength(50)
-                .HasColumnName("nameP");
-            entity.Property(e => e.Pic)
-                .HasMaxLength(150)
-                .HasColumnName("pic");
-            entity.Property(e => e.Price).HasColumnName("price");
+    //    modelBuilder.Entity<Product>(entity =>
+    //    {
+    //        entity.HasKey(e => e.Id).HasName("PK__product__3213E83FA22CC012");
 
-            entity.HasOne(d => d.CodeCatNavigation).WithMany(p => p.Products)
-                .HasForeignKey(d => d.CodeCat)
-                .HasConstraintName("FK__product__codeCat__286302EC");
+    //        entity.ToTable("product");
 
-            entity.HasOne(d => d.CodeComNavigation).WithMany(p => p.Products)
-                .HasForeignKey(d => d.CodeCom)
-                .HasConstraintName("FK__product__codeCom__29572725");
-        });
+    //        entity.Property(e => e.Id).HasColumnName("id");
+    //        entity.Property(e => e.Amount).HasColumnName("amount");
+    //        entity.Property(e => e.CodeCat).HasColumnName("codeCat");
+    //        entity.Property(e => e.CodeCom).HasColumnName("codeCom");
+    //        entity.Property(e => e.Descrip)
+    //            .HasMaxLength(100)
+    //            .HasColumnName("descrip");
+    //        entity.Property(e => e.LastUpdate)
+    //            .HasColumnType("datetime")
+    //            .HasColumnName("lastUpdate");
+    //        entity.Property(e => e.NameP)
+    //            .HasMaxLength(50)
+    //            .HasColumnName("nameP");
+    //        entity.Property(e => e.Pic)
+    //            .HasMaxLength(150)
+    //            .HasColumnName("pic");
+    //        entity.Property(e => e.Price).HasColumnName("price");
 
-        modelBuilder.Entity<PurchaseDetail>(entity =>
-        {
-            entity.HasKey(e => e.Id).HasName("PK__purchase__3213E83F3778D3BB");
+    //        entity.HasOne(d => d.CodeCatNavigation).WithMany(p => p.Products)
+    //            .HasForeignKey(d => d.CodeCat)
+    //            .HasConstraintName("FK__product__codeCat__286302EC");
 
-            entity.ToTable("purchaseDetails");
+    //        entity.HasOne(d => d.CodeComNavigation).WithMany(p => p.Products)
+    //            .HasForeignKey(d => d.CodeCom)
+    //            .HasConstraintName("FK__product__codeCom__29572725");
+    //    });
 
-            entity.Property(e => e.Id).HasColumnName("id");
-            entity.Property(e => e.Amount).HasColumnName("amount");
-            entity.Property(e => e.CodeBuy).HasColumnName("codeBuy");
-            entity.Property(e => e.CodeProd).HasColumnName("codeProd");
+    //    modelBuilder.Entity<PurchaseDetail>(entity =>
+    //    {
+    //        entity.HasKey(e => e.Id).HasName("PK__purchase__3213E83F3778D3BB");
 
-            entity.HasOne(d => d.CodeBuyNavigation).WithMany(p => p.PurchaseDetails)
-                .HasForeignKey(d => d.CodeBuy)
-                .HasConstraintName("FK__purchaseD__codeB__30F848ED");
+    //        entity.ToTable("purchaseDetails");
 
-            entity.HasOne(d => d.CodeProdNavigation).WithMany(p => p.PurchaseDetails)
-                .HasForeignKey(d => d.CodeProd)
-                .HasConstraintName("FK__purchaseD__codeP__31EC6D26");
-        });
+    //        entity.Property(e => e.Id).HasColumnName("id");
+    //        entity.Property(e => e.Amount).HasColumnName("amount");
+    //        entity.Property(e => e.CodeBuy).HasColumnName("codeBuy");
+    //        entity.Property(e => e.CodeProd).HasColumnName("codeProd");
 
-        OnModelCreatingPartial(modelBuilder);
-    }
+    //        entity.HasOne(d => d.CodeBuyNavigation).WithMany(p => p.PurchaseDetails)
+    //            .HasForeignKey(d => d.CodeBuy)
+    //            .HasConstraintName("FK__purchaseD__codeB__30F848ED");
 
-    partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+    //        entity.HasOne(d => d.CodeProdNavigation).WithMany(p => p.PurchaseDetails)
+    //            .HasForeignKey(d => d.CodeProd)
+    //            .HasConstraintName("FK__purchaseD__codeP__31EC6D26");
+    //    });
+
+    //    OnModelCreatingPartial(modelBuilder);
+    //}
+
+    //partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 }

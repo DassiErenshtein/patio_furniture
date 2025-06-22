@@ -1,8 +1,8 @@
+using Dal_Repository.models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("connectionSql");
-
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -26,10 +26,10 @@ builder.Services.AddScoped<IBll_Services.IProductBll, Bll_Services.funcProd>();
 builder.Services.AddScoped<IBll_Services.IBll<DTO_Command.Company>, Bll_Services.funcComp>();
 builder.Services.AddScoped<IBll_Services.IClientBll, Bll_Services.funcClient>();
 builder.Services.AddScoped<IBll_Services.IBuyBll, Bll_Services.funcBuy>();
-
 builder.Services.AddDbContext<Dal_Repository.models.PatioFurnitureContext>
 (options =>
-options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+options.UseMySql(connectionString, new MySqlServerVersion(new Version(8, 0, 0)),
+        mySqlOptions => mySqlOptions.EnableRetryOnFailure()));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

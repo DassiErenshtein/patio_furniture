@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("patio_furniture")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1819109e98cc94a619e65da6a26e76ce9e7955f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+039b4f7e3873fd677ad61b28b09b92a8177eaa7a")]
 [assembly: System.Reflection.AssemblyProductAttribute("patio_furniture")]
 [assembly: System.Reflection.AssemblyTitleAttribute("patio_furniture")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,5 @@
 ﻿using Dal_Repository.models;
+using Dal_Repository.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -10,8 +11,8 @@ namespace Dal_Repository
 {
     public class purchaseDal:IDal_Repository.IDalPurchase
     {
-        PatioFurnitureContext db;
-        public purchaseDal(PatioFurnitureContext dB)
+        Byac3kvjhqok4gtkxgttContext db;
+        public purchaseDal(Byac3kvjhqok4gtkxgttContext dB)
         {
             db = dB;
         }
@@ -21,7 +22,7 @@ namespace Dal_Repository
         public async Task<DTO_Command.Product> addPurchaceDetailAsync(DTO_Command.Product product, int codeBuy)
         {
             var thisProduct=await db.Products.FirstOrDefaultAsync(p => p.Id == product.Id);
-            models.PurchaseDetail p = new models.PurchaseDetail();
+            Models.PurchaseDetail p = new Models.PurchaseDetail();
             p.CodeBuy = (short?)codeBuy;
             p.CodeProd = product.Id;
             p.Amount = product.TempAmount;

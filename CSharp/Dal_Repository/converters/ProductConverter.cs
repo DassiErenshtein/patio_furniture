@@ -8,7 +8,7 @@ namespace Dal_Repository.converters
 {
     internal class ProductConverter
     {
-        public static DTO_Command.Product toDtoProd(models.Product prod)
+        public static DTO_Command.Product toDtoProd(Models.Product prod)
         {
             DTO_Command.Product newProd = new DTO_Command.Product();
             newProd.Id = prod.Id;
@@ -24,7 +24,7 @@ namespace Dal_Repository.converters
             newProd.NameP = prod.NameP;
             return newProd;
         }
-        public static List<DTO_Command.Product> toListDtoProd(List<models.Product> products)
+        public static List<DTO_Command.Product> toListDtoProd(List<Models.Product> products)
         {
             List<DTO_Command.Product> newProds = new List<DTO_Command.Product>();
             foreach (var prod in products)

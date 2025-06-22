@@ -11,8 +11,8 @@ namespace Dal_Repository
 {
     public class ClientDal : IDal_Repository.IDalClient
     {
-        PatioFurnitureContext db;
-        public ClientDal(PatioFurnitureContext dB)
+        Models.Byac3kvjhqok4gtkxgttContext db;
+        public ClientDal(Models.Byac3kvjhqok4gtkxgttContext dB)
         {
             db = dB;
         }

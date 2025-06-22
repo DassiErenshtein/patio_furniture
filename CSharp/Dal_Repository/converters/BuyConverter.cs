@@ -8,7 +8,7 @@ namespace Dal_Repository.converters
 {
     internal class BuyConverter
     {        
-        public static async Task< DTO_Command.Buy> toDtoBuy(models.Buy buy)
+        public static async Task< DTO_Command.Buy> toDtoBuy(Models.Buy buy)
         {
             DTO_Command.Buy newB = new DTO_Command.Buy();
             newB.Id = buy.Id;
@@ -32,17 +32,17 @@ namespace Dal_Repository.converters
             newB.Note = buy.Note;
             return newB;
         }
-        public static models.Buy toModelBuy(DTO_Command.Buy buy)
+        public static Models.Buy toModelBuy(DTO_Command.Buy buy)
         {
-            models.Buy newB = new models.Buy();
-            newB.SumPrice = buy.SumPrice;
+            Models.Buy newB = new Models.Buy();
+            newB.SumPrice = (float)buy.SumPrice;
             newB.CodeClient = buy.CodeClient;
             newB.Date = DateTime.Now;
             newB.Note = buy.Note;
-            newB.StatusBuy = false;
+            newB.StatusBuy = 0;
             return newB;
         }
-        public static async Task<List<DTO_Command.Buy>> toListDtoBuy(List<models.Buy> buys)
+        public static async Task<List<DTO_Command.Buy>> toListDtoBuy(List<Models.Buy> buys)
         {
             List<DTO_Command.Buy> newBuys = new List<DTO_Command.Buy>();
             foreach (var b in buys)

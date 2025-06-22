@@ -26,7 +26,7 @@ builder.Services.AddScoped<IBll_Services.IProductBll, Bll_Services.funcProd>();
 builder.Services.AddScoped<IBll_Services.IBll<DTO_Command.Company>, Bll_Services.funcComp>();
 builder.Services.AddScoped<IBll_Services.IClientBll, Bll_Services.funcClient>();
 builder.Services.AddScoped<IBll_Services.IBuyBll, Bll_Services.funcBuy>();
-builder.Services.AddDbContext<Dal_Repository.models.PatioFurnitureContext>
+builder.Services.AddDbContext<Dal_Repository.Models.Byac3kvjhqok4gtkxgttContext>
 (options =>
 options.UseMySql(connectionString, new MySqlServerVersion(new Version(8, 0, 0)),
         mySqlOptions => mySqlOptions.EnableRetryOnFailure()));

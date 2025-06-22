@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Dal_Repository.models;
+namespace Dal_Repository.Models;
 
 public partial class Company
 {

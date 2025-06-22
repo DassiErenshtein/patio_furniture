@@ -5,8 +5,8 @@ namespace Dal_Repository
 {
     public class CatFunc:IDal_Repository.IDal<DTO_Command.Category>
     {
-        PatioFurnitureContext db;
-        public CatFunc(PatioFurnitureContext dB)
+        Models.Byac3kvjhqok4gtkxgttContext db;
+        public CatFunc(Models.Byac3kvjhqok4gtkxgttContext dB)
         {
             db = dB;
         }

@@ -11,8 +11,8 @@ namespace Dal_Repository
 {
     public class CompDal : IDal_Repository.IDal<DTO_Command.Company>
     {
-        PatioFurnitureContext db;
-        public CompDal(PatioFurnitureContext dB)
+        Models.Byac3kvjhqok4gtkxgttContext db;
+        public CompDal(Models.Byac3kvjhqok4gtkxgttContext dB)
         {
             db = dB;
         }

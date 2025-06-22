@@ -1,4 +1,5 @@
 ﻿using Dal_Repository.models;
+using Dal_Repository.Models;
 using DTO_Command;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -11,8 +12,8 @@ namespace Dal_Repository
 {
     public class BuyDal : IDal_Repository.IDalBuy
     {
-        PatioFurnitureContext db;
-        public BuyDal(PatioFurnitureContext dB)
+        Byac3kvjhqok4gtkxgttContext db;
+        public BuyDal(Byac3kvjhqok4gtkxgttContext dB)
         {
             db = dB;
         }
@@ -45,7 +46,7 @@ namespace Dal_Repository
         {
             var orders = await db.Buys.Include(x => x.PurchaseDetails).ThenInclude(x=>x.CodeProdNavigation)
                 .ThenInclude(x=>x.CodeCatNavigation)
-                .Where(x => x.CodeClient == codeClient&&x.StatusBuy==true)
+                .Where(x => x.CodeClient == codeClient&&x.StatusBuy==1)
                 .OrderByDescending(x => x.Date).Take(5).ToListAsync();
             return await converters.BuyConverter.toListDtoBuy(orders);
         }
@@ -53,7 +54,7 @@ namespace Dal_Repository
         public async Task updateSum(int buyId,double sumPrice)
         {
             var a=await db.Buys.FirstOrDefaultAsync(x => x.Id == buyId);
-            a.SumPrice = sumPrice;
+            a.SumPrice = (float)sumPrice;
             await db.SaveChangesAsync();
         }
         //שומרת את הקניה לאחר שלחצו על אישור תשלום. מקבלת קוד קניה, מוצאת אותה, ,מעדכנת את הסטטוס ואת פרטי הקניה שלה
@@ -62,7 +63,7 @@ namespace Dal_Repository
             //לוקחת קניה עם פרטי הקניה שלה והמוצרים שקשורים אליה
             var buy=await db.Buys.Include(x => x.PurchaseDetails).ThenInclude(x => x.CodeProdNavigation)
                 .FirstOrDefaultAsync(x => x.Id == codeBuy);
-            buy.StatusBuy = true;
+            buy.StatusBuy = 1;
             //המוצרים שנגמרו
             Dictionary<string,int> finished = new Dictionary<string,int>();
             var listPurchase = buy.PurchaseDetails.ToList();

@@ -9,7 +9,7 @@ namespace Dal_Repository.converters
 {
     public class CategoryConverter
     {
-        public static DTO_Command.Category toDtoCat(models.Category category)
+        public static DTO_Command.Category toDtoCat(Models.Category category)
         {
             DTO_Command.Category newCat = new DTO_Command.Category();
             newCat.Id = category.Id;
@@ -17,7 +17,7 @@ namespace Dal_Repository.converters
             newCat.Img = category.Img;
             return newCat;
         }
-        public static List<DTO_Command.Category> toListDtoCat(List<models.Category> categories)
+        public static List<DTO_Command.Category> toListDtoCat(List<Models.Category> categories)
         {
             List<DTO_Command.Category> newCats = new List<DTO_Command.Category>();
             foreach (var category in categories)

@@ -12,8 +12,8 @@ namespace Dal_Repository
 {
     public class ProdDal : IDal_Repository.IDalProd
     {
-        PatioFurnitureContext db;
-        public ProdDal(PatioFurnitureContext dB)
+        Models.Byac3kvjhqok4gtkxgttContext db;
+        public ProdDal(Models.Byac3kvjhqok4gtkxgttContext dB)
         {
             db = dB;
         }

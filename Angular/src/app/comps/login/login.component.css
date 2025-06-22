@@ -87,7 +87,7 @@
   }
   
   .modal-backdrop {
-    background-image: url('../../../../public/a2.jpg'); 
+    background-image: url('/assets/a2.jpg'); 
     background-size: cover;
     background-position: center;
     position: absolute;

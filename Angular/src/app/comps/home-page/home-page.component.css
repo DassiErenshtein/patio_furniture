@@ -571,7 +571,7 @@ header .text .arrow .left:after, header .text .arrow .right:after, header .text 
 header {
   height: calc(100vh - 22px);
   background-size: cover;
-  background: url("../../../../public/homePage/359288.jpg") fixed bottom;
+  background: url("/assets/homePage/359288.jpg") fixed bottom;
   padding: 20px 70px;
 }
 header nav {
@@ -740,7 +740,7 @@ header .arrow-down {
 /*Start Recipes*/
 .recipes .image {
   height: 350px;
-  background: url("../../../../public/homePage/p3a.webp") fixed center;
+  background: url("/assets/homePage/p3a.webp") fixed center;
   background-size: cover;
 }
 /*End Recipes*/
@@ -815,7 +815,7 @@ header .arrow-down {
 
 /*Start fixed-image*/
 .fixed-image {
-  background: url("../../../../public/homePage/530950.jpg") fixed center;
+  background: url("/assets/homePage/530950.jpg") fixed center;
   background-size: cover;
   height: 400px;
 }
@@ -911,7 +911,7 @@ footer .newsletter i {
 
 /*Start Contact Page*/
 .contact-header {
-  background-image: url("../../../../public/homePage/dokran-raz_category---_-_-_.jpg");
+  background-image: url("/assets/homePage/dokran-raz_category---_-_-_.jpg");
   height: 40vh;
 }
 .contact {

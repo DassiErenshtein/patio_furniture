@@ -59,6 +59,7 @@ export class ProductsComponent {
   filter1() {
     if (this.codeCategory) this.selected[0] = this.codeCategory;
     this.prodS.filter1(this.selected).subscribe(data => {
+      debugger
       this.products = data;
     });
   }

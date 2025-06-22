@@ -1,5 +1,4 @@
-﻿using Dal_Repository.models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 namespace Dal_Repository
 {

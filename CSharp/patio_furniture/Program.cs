@@ -1,4 +1,3 @@
-using Dal_Repository.models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

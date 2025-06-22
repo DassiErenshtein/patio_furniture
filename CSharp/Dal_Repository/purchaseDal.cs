@@ -1,5 +1,4 @@
-﻿using Dal_Repository.models;
-using Dal_Repository.Models;
+﻿using Dal_Repository.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

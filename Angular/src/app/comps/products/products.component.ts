@@ -18,14 +18,14 @@ import { ButtonComponent } from "../button/button.component";
 })
 export class ProductsComponent {
   codeCategory: number = 0;
-  
+
   // אתחול המחלקה עם השירותים לניהול מוצרים, קטגוריות וחברות
   constructor(
     public prodS: ProductService,
     public catS: CategoryService,
     public compS: CompanyService,
     public ar: ActivatedRoute
-  ) {}
+  ) { }
 
   products: Array<Product> = new Array<Product>();
   categorys: Array<Category> = new Array<Category>();
@@ -40,12 +40,12 @@ export class ProductsComponent {
 
     this.codeCategory
       ? await this.prodS.filter1([this.codeCategory, 0, 0, 0]).subscribe(
-          data => (this.products = data)
-        )
+        data => (this.products = data)
+      )
       : await this.prodS.getAllProd().subscribe(
-          data => (this.products = data)
-        );
-
+        data => (this.products = data)
+      );
+    debugger
     await this.catS.getAll().subscribe(data => {
       this.categorys = data;
     });

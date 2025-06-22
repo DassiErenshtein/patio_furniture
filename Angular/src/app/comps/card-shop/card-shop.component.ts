@@ -22,7 +22,7 @@ export class CardShopComponent {
   //מעדכנת את מערך התמונות למוצר הנוכחי ומעדכנת ניתוב לתמונה הראשונה שהיא זו שתוצג
   ngOnInit() {
     this.pics = this.product && this.product.pic?this.product.pic.split(",") : new Array<string>
-    this.urlPic = this.product?.nameCat + this.pics[0]
+    this.urlPic = 'assets/'+this.product?.nameCat + this.pics[0]
   }
   //שנשלח לדירקטיב משתנה אם הוא יכול להתווסף לסל (וכך גם בתצוגה יראו ליד הסל כמה הוזמן ממוצר זה) NUM בעת הוספה לסל ישלח לפונקציה במסד והמשתנה 
   addToCart(){

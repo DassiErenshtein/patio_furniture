@@ -23,7 +23,8 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "public",
+                "output": "assets"
               }
             ],
             "styles": [
@@ -55,15 +56,12 @@
           },
           "defaultConfiguration": "production"
         },
-       
-
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
               "buildTarget": "patio_furniture:build:production"
-            }
-            ,
+            },
             "development": {
               "buildTarget": "patio_furniture:build:development"
             }

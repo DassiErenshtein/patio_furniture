@@ -7,17 +7,20 @@ import { ClientService } from './client.service';
 import { PurchaseBuy } from '../classes/PurchaseBuy';
 import { ProductService } from './product.service';
 import Swal from 'sweetalert2';
+import { configService } from './configService';
 
 @Injectable({
   providedIn: 'root'
 })
 export class BuyService {
 
-  constructor(public cf: HttpClient, public cs: ClientService, public ps: ProductService) {
+  constructor(public cf: HttpClient, public cs: ClientService, public ps: ProductService,public configService:configService) {
     this.cart = new Buy(0, this.cs.thisClient.id || "", new Date(), 0, "", new Array<Product>())
+    this.url = `${this.configService.apiUrl}buy`;
   }
   cart!: Buy
-  public url: string = 'https://patio-furniture.onrender.com/api/buy'
+  public url:string
+  // : string = 'https://patio-furniture.onrender.com/api/buy'
   //להמשיך איתו ולא ליצור חדש STORAGEאתחול הסל, אם קיים ב
   start() {
     let cart = localStorage.getItem('cart')

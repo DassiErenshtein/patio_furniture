@@ -8,6 +8,7 @@ import { Router } from '@angular/router';
 import { Location } from '@angular/common';
 import Swal from 'sweetalert2';
 import { BuyService } from './buy.service';
+import { configService } from './configService';
 
 @Injectable({
   providedIn: 'root'
@@ -190,9 +191,12 @@ export class ClientService {
       }
     }
   ]
-  public url: string = 'https://patio-furniture.onrender.com/api/client'
+  public url: string 
+  // = 'https://patio-furniture.onrender.com/api/client'
   thisClient: Client = new Client()
-  constructor(public cf: HttpClient, public route: Router, public l: Location) { }
+  constructor(public cf: HttpClient, public route: Router, public l: Location,public configService:configService) { 
+    this.url = `${this.configService.apiUrl}client`;
+  }
   //שליחה לפונקציות אלו מפונקציות השליחה שנשלחו מכאן
   // התחברות
   login1(id: number): Observable<Client> {

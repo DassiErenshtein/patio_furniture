@@ -46,7 +46,7 @@ export class LoginComponent {
   //סגירת הקומפוננטה- בדיקה האם המשתנה הבוליאני מרמז על כך שהגיעו דרך הניתוב, אם כן חוזרים בניתוב.
   //  אחרת מפעילים את הפונקציה שנשלחה שסוגרת את הקומפוננטה
   closeLogin() {
-    debugger
+    
     if (this.flagFromUrl == true)
       this.l.back();
     else

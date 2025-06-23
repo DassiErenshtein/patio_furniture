@@ -14,7 +14,7 @@ export class HistoryOrderComponent implements OnInit {
   }
   //מקבלת מוצר ומחזירה את הניתוב של התמונה שלו- כל הניתובים נמצאים בתוך תקיות תואמות לקטגוריה
   getUrlPic(product: Product) {
-    debugger
+    
     if (product && product.pic)
       return "assets/"+product.nameCat + product.pic.split(',')[0]
     else

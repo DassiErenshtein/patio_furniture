@@ -46,7 +46,7 @@ export class BuyService {
   // אם המוצר כבר קיים, מוסיפים כמות למוצר ששם, אחרת מוסיפים מוצר חדש
   // יכולה לקבל כמות ולעדכן, ואם לא מקבלת כמות, מעדכנת 1.
   addToCart(p: Product, count?: number): boolean {
-    debugger    
+        
     let iProd = this.cart.products?this.cart.products.findIndex(p1 => p1.id == p.id):-1
     if (iProd == -1) {
       if (p.amount - p.tempAmount < 1 || (count && p.amount - p.tempAmount < count + 1)) {

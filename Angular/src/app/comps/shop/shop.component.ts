@@ -16,7 +16,7 @@ export class ShopComponent {
   categories:Array<Category>=[]
   ngOnInit():void{
     //לקיחת כל הקטגוריות
-    debugger
+    
     this.catS.getAll().subscribe(
       x=>
         this.categories=x

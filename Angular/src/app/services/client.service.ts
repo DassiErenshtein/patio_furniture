@@ -91,7 +91,7 @@ export class ClientService {
     },
     {
       type: "submit", input: "", value: "", func: async (a: any) => {
-        debugger
+        
         a.newClient.id = a.arrayForm[0].value
         a.newClient.name = a.arrayForm[1].value
         a.newClient.phone = a.arrayForm[2].value
@@ -164,7 +164,7 @@ export class ClientService {
     {
       type: "submit", input: "", value: "",
       func: async (a: any) => {
-        debugger
+        
         a.newClient.email = a.arrayForm[0].value
         a.newClient.id = a.arrayForm[1].value
         let flag = false

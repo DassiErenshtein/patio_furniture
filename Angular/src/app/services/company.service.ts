@@ -16,7 +16,7 @@ export class CompanyService {
     public url:string
     // ='https://patio-furniture.onrender.com/api/company'
     getAll():Observable<Array<Company>>{
-      debugger
+      
       return this.cf.get<Array<Company>>(this.url)
     }
 }

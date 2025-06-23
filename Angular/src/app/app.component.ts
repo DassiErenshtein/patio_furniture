@@ -21,7 +21,7 @@ export class AppComponent implements OnInit{
   }
   login: boolean = false;
   letLogin(f: boolean): void {
-    debugger
+    
     this.login = f||this.cs.flagFormLR;
   }
 }

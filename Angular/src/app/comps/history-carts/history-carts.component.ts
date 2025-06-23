@@ -13,7 +13,7 @@ import { ClientService } from '../../services/client.service';
 export class HistoryCartsComponent implements OnInit {
   constructor(public bs: BuyService, public cs: ClientService) { }
   ngOnInit(): void {
-    debugger
+    
     //מציגה את ההסטוריה של הלקוח, את כל הקניות האחרונות שלו (5)
     if (this.cs.thisClient.id != undefined)
       this.bs.getHistory().subscribe(data => {

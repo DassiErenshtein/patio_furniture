@@ -45,7 +45,7 @@ export class ProductsComponent {
       : await this.prodS.getAllProd().subscribe(
         data => (this.products = data)
       );
-    debugger
+    
     await this.catS.getAll().subscribe(data => {
       this.categorys = data;
     });
@@ -59,7 +59,7 @@ export class ProductsComponent {
   filter1() {
     if (this.codeCategory) this.selected[0] = this.codeCategory;
     this.prodS.filter1(this.selected).subscribe(data => {
-      debugger
+      
       this.products = data;
     });
   }

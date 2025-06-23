@@ -20,7 +20,7 @@ export class HomePageComponent implements OnInit {
   categories: Array<Category> = []
 
   async ngOnInit() {
-    debugger
+    
     //מעדכנת את כל הקטגוריות הקיימות במערכת
     this.catS.getAll().subscribe(x =>
       this.categories = x
@@ -49,7 +49,7 @@ export class HomePageComponent implements OnInit {
   population?: Array<Product>
   //קבלת ניתוב לפי הקטגוריה והניתוב של הראשון במערך הניתובים
   getUrl(product: Product) {
-    debugger
+    
     let arr = product.pic?.split(',')
     return 'assets/'+product.nameCat + arr![0]
   }

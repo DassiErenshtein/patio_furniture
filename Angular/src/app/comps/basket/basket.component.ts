@@ -32,7 +32,7 @@ export class BasketComponent {
   //עדכון קניה- מעדכן בשרת שהקניה אושרה, השרת יעדכן את הסטטוס ואת המוצרים יפחית מהם.
   //יחזור אובייקט של מוצר שלא היה וכמות חסרה והפונקציה תציג אותם ללקוח  
   updateBuy(buy: Buy) {
-    debugger
+    
     this.bs.saveBuy(buy.id || 0).subscribe((data) => {
       let y = Object.entries(data).map(([key, value]) => ({
         key,

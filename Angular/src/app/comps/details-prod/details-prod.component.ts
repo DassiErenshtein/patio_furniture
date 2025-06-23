@@ -27,13 +27,13 @@ export class DetailsProdComponent {
     await this.codeProduct != 0 && this.prodS.getProdById(this.codeProduct).subscribe(data => {
       this.product = data;
       this.pics = this.product && this.product.pic ? this.product.pic.split(",") : new Array<string>
-      this.bigPic = this.product?.nameCat + this.pics[0];
+      this.bigPic ='assets/'+ this.product?.nameCat + this.pics[0];
     })
 
   }
   //קבלת הניתוב עפ"י אינדקס שעומדים בו במערך, כדי לקבל את כל התמונות של המוצר
   getUrlPic(i: number) {
-    return this.product?.nameCat + this.pics[i];
+    return "assets/"+this.product?.nameCat + this.pics[i];
   }
   //התמונה הגדולה תשתנה בהתאם ללחיצה על שאר התמונות
   changePic(i: number) {

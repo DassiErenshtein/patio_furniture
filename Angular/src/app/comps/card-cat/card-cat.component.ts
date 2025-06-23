@@ -14,6 +14,6 @@ export class CardCatComponent {
 
   constructor(public router: Router) { }
   getImg(cat:Category){
-    return cat.nameC+cat.img;
+    return 'assets/'+cat.nameC+cat.img;
   }
 }

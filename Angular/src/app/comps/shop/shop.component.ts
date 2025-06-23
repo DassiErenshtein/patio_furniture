@@ -24,7 +24,7 @@ export class ShopComponent {
     
   }
   getImg(cat:Category){
-    return cat.nameC+cat.img;
+    return 'assets/'+cat.nameC+cat.img;
   }
   
 }

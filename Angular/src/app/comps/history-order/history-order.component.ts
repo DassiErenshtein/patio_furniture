@@ -16,7 +16,7 @@ export class HistoryOrderComponent implements OnInit {
   getUrlPic(product: Product) {
     debugger
     if (product && product.pic)
-      return product.nameCat + product.pic.split(',')[0]
+      return "assets/"+product.nameCat + product.pic.split(',')[0]
     else
       return ""
   }

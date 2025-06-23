@@ -62,7 +62,7 @@
             </div>
             <div class="box-image-container">
                 <div class="box-image">
-                    <img [src]="'homePage/'+imgs[4]" alt="Food Photo">
+                    <img [src]="'assets/homePage/'+imgs[4]" alt="Food Photo">
                 </div>
             </div>
         </div>
@@ -115,7 +115,7 @@
         <div class="image-container" id="categories">
             @for(item of categories;track item.id){
             <div class="image image1">
-                <app-card-cat [path]="'/products/'+item.id" [url]="item.nameC+item.img"
+                <app-card-cat [path]="'/products/'+item.id" [url]="'assets/'+item.nameC+item.img"
                     [nameCard]="item.nameC"></app-card-cat>
             </div>
             }

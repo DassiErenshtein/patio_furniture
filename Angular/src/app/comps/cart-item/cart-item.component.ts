@@ -19,7 +19,6 @@ export class CartItemComponent implements OnInit{
   ngOnInit(): void {
     this.pics = this.item && this.item.pic ? this.item.pic.split(",") : new Array<string>()
     //ניתוב לתמונה הראשונה במערך התמונות שלו כדי שתהיה תמונה למוצר בסל
-    this.bigPic=this.item.nameCat + this.pics[0];
-  }
+    this.bigPic="assets/"+this.item.nameCat + this.pics[0];  }
     
   }

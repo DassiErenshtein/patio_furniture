@@ -49,8 +49,9 @@ export class HomePageComponent implements OnInit {
   population?: Array<Product>
   //קבלת ניתוב לפי הקטגוריה והניתוב של הראשון במערך הניתובים
   getUrl(product: Product) {
+    debugger
     let arr = product.pic?.split(',')
-    return product.nameCat + arr![0]
+    return 'assets/'+product.nameCat + arr![0]
   }
   //הפונקציה תחזיר לי את המוצרים הנקנים ביותר
   getPopulates() {

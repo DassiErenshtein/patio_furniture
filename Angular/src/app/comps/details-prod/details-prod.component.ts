@@ -37,7 +37,7 @@ export class DetailsProdComponent {
   }
   //התמונה הגדולה תשתנה בהתאם ללחיצה על שאר התמונות
   changePic(i: number) {
-    this.bigPic = this.product?.nameCat + this.pics[i];
+    this.bigPic = 'assets/'+this.product?.nameCat + this.pics[i];
   }
   //הוספה לסל, כמו שראינו בהרבה מקומות אחרים. רק צריך לבדוק שבאמת יש אפשרות כזו. הפונקציה בסרוויס בודקת את זה.
   addToCart() {

@@ -36,9 +36,26 @@ ng serve
 ```
 • Open a browser and navigate to:  
 http://localhost:4200/
-## 🐞 Known Bugs / Assumptions
-Assumes user input is validated client-side and re-validated server-side.
-## ☕ Support / Sponsor
-If you like this project, consider giving it a ⭐.
+## 🖼️ Screenshots
+
+### Login Or Register
+![Login Or Register](./Angular/public/readme/login.jpg)
+
+### Products
+![Products](./Angular/public/readme/allProducts.jpg)
+
+### Orders History
+![Order's History](./Angular/public/readme/history.jpg)
+### Carcet
+![Carcet](./Angular/public/readme/sal.jpg)
+
+---
+
+## 🎥 Demo Video
+### Home Page
+![Home Page](./Angular/public/readme/homePage.gif)
+
+---
+
 ## Author
 Developed by Hadasa Erenshtein

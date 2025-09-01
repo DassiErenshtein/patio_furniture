@@ -46,8 +46,8 @@ http://localhost:4200/
 
 ### Orders History
 ![Order's History](./Angular/public/readme/history.jpg)
-### Carcet
-![Carcet](./Angular/public/readme/sal.jpg)
+### Shopping Cart
+![Shopping Cart](./Angular/public/readme/sal.jpg)
 
 ---
 

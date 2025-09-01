@@ -9,8 +9,8 @@ A comprehensive e-commerce website for selling patio furniture and accessories. 
 • View product history.  
 • Pay the amount to be paid at checkout, the shipping option must be relevant.
 ## 🛠 Technologies
-• **Frontend**: Angular 16  
-• **Backend**: ASP.NET Core C# 7.0  
+• **Frontend**: Angular 19  
+• **Backend**: ASP.NET Core C# 8.0  
 • **Database**: Microsoft SQL Server  
 • **Communication**: REST API
 ## 🔧 Installation and Setup
